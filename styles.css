@@ -110,7 +110,7 @@ body {
 padding: 10px 50px;
 position: relative;
 width: 50%;
-background: white;
+background: lightcoral;
 }
 
 .text-box {
@@ -118,11 +118,15 @@ background: white;
     position: relative;
     border-radius: 6px;
     font-size: 15px;
+    background: white;
 }
 
-
-
-
+.left-container {
+    left: 0;
+}
+.right-container {
+    left: 50%;
+}
 
 
 
