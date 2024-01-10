@@ -110,7 +110,7 @@ body {
 padding: 10px 50px;
 position: relative;
 width: 50%;
-background: lightcoral;
+background: white;
 }
 
 .text-box {
@@ -127,8 +127,20 @@ background: lightcoral;
 .right-container {
     left: 50%;
 }
+.container img {
+    position: relative;
+    width: auto;
+    border-radius: 90%;
+    right: 20px;
+   
+}
+ .img {
+    padding-bottom: 15px;
+ }
+    
+}
 
-
+}
 
 footer {
     background-color: red;
