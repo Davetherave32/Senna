@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans:wght@500&family=Open+Sans&family=Roboto:wght@300&display=swap');
 
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 200px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +21,8 @@
 }
 
 .header {
-    position: flex;
-    top: 20px;
+    position: fixed;
+    top: 0;
     bottom: 50px;
     width: 100%;
     z-index: 9999;
@@ -26,7 +31,7 @@
 
 .header_content {
     height: 60px;
-    display: flex;
+    display: fixed;
     justify-content: center;
     align-items: center;
     max-width: 1200px;
@@ -40,6 +45,7 @@ nav {
 img {
     padding-top: 25px;
 }
+
 
 .hero {
     background-image: url(image/Senna02.png);
@@ -83,6 +89,10 @@ img {
 
 }
 
+h2{
+    font-size: x-large;
+}
+
 body {
     font-family: Lato, sans-serif;
     background-color: whitesmoke;
@@ -97,13 +107,18 @@ body {
 
 
 
+table {
+   position: static;
+    margin: 0 auto;
+}
 
 
 
 .timeline {
-    position: relative;
-    max-width: 1200px;
+    position: flex;
+    max-width: 2000px;
     margin: 100px auto;
+    animation: moveline 6s lineear forwards;
 }
 
 .container {
@@ -115,10 +130,10 @@ background: white;
 
 .text-box {
     padding: 20px 30px;
-    position: relative;
+    position: static;
     border-radius: 6px;
     font-size: 15px;
-    background: white;
+    
 }
 
 .left-container {
@@ -128,19 +143,35 @@ background: white;
     left: 50%;
 }
 .container img {
-    position: relative;
-    width: auto;
-    border-radius: 90%;
-    right: 20px;
-   
-}
- .img {
-    padding-bottom: 15px;
- }
-    
+    position: static;
+    width: 200px;
+    padding-bottom: 20px;
+    right: 5px;
+    z-index: 10;
 }
 
+
+.right-container img {
+    left: 525px;
 }
+
+.timeline::after{
+    content: ;
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: ;
+    top: 0;
+    left: 50%;
+    margin-left: 3px;
+    z-index: -1;
+}
+
+ .img {
+    padding-bottom: 15px;
+    right: 10px;
+ }
+
 
 footer {
     background-color: red;
