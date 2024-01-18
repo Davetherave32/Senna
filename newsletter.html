@@ -45,9 +45,34 @@
 
 <section id="Newsletter">
     <br>
-<h3>Newsletter</h3>
-<br>
 
+<br>
+  <!-- Code for the form structure -->
+  <section>
+    <div class="form_layout">
+      <!-- This class is to make the 2 elements display inline -->
+      <div class="form_inline">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact_form">
+          <h2>Contact Us</h2>
+          <label for="fname">First Name</label>
+          <input class="text_input" id="fname" name="first_name" type="text" required>
+
+          <label for="lname">Last Name</label>
+          <input class="text_input" id="lname" name="last_name" type="text" required>
+
+          <label for="email">Email Address</label>
+          <input class="text_input" type="email" id="email" name="email_address" required>
+
+          <label for="feedback">Your Message</label>
+          <textarea id="feedback" name="feedback" required></textarea>
+
+          <input type="submit" class="submit_button" value="Submit">
+        </form>
+      </div>
+    
+    <br>
+    <br>
+  </section>
 
 
 
