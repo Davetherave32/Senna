@@ -144,10 +144,7 @@ nav ul li a{
   display: none;
 }
 #check:checked ~ label #btn{
-  display: block;
-
-
-  }
+  display: block;}
 }
 
 body {
