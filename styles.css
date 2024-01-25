@@ -96,9 +96,59 @@ body {
     color: red;
 }
 
+label #btn,
+label #cancel {
+  color: black;
+  font: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 900px) {
+  label #btn{
+    display: inline-block;
+  }
+
+@media (max-width: 800px) {
+  nav img{
+    left: 6%;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+nav ul li a{
+  font-size: 20px;
+}
+#check:checked ~ ul{
+  left: 0;
+}
+#check:checked ~ label #btn{
+  display: none;
+}
+#check:checked ~ label #btn{
+  display: block;
 
 
-
+  }
+}
 
 body {
     font-family: Lato, sans-serif;
@@ -374,6 +424,11 @@ footer p {
     text-align: center;
     color: white;
 }
+
+
+
+
+
 /* Media query max width 1200px */
 @media screen and (max-width: 1200px) {
 
@@ -398,6 +453,9 @@ footer p {
     width: 50%;
     left: 0;
 }
+
+
+
 /* Media query max width 800px */
 @media screen and (max-width: 800px) {
   .hero-image {
