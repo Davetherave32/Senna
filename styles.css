@@ -338,21 +338,24 @@ text-align: center;
 
 footer {
     background-color: red;
-    padding: 50px;
+    padding: 30px;
 }
 
 footer ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: contents;
+    align-items: right;
+    justify-content: space-around;
     list-style: none;
+    position: static;
+    padding: auto;
 }
 
 footer i {
-    font-size: 160%;
-    padding: 5%;
+    font-size: 200%;
     color: white;
+    padding: 0%;
 }
+
 
 footer i:hover{
     color: black
@@ -363,9 +366,9 @@ footer p {
     color: white;
 }
 
-@media (max-width: 1000px){
-  .footer ul{
-    : column;
+@media(max-width: 999px) {
+  footer ul: {
+  padding: auto;
   }
 }
 
