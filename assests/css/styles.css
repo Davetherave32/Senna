@@ -54,7 +54,7 @@ body {
 
 .hero {
   position: flex;
-    background-image: url(image/Senna02.png);
+    background-image: url(assests/image/Senna-02.png);
     height: calc(100vh - 80px);
     background-size: cover;
     background-repeat: no-repeat;
