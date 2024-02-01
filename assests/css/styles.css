@@ -8,44 +8,47 @@ html{
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 50px;
     box-sizing: border-box;
 }
 
 .intro {
     height: 70vh;
-    background-color: cover;
+    background-color: white
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    bottom: 50px;
+    position: absolute;
+    background-color: white;
+    top: 100px;
+    bottom: 2em;
     width: 100%;
     z-index: 9999;
-    height: 60px;
+    height: 100px;
 }
 
 
 .header_content {
     height: 60px;
-    display: fixed;
+    display: flex;
     justify-content: center;
     align-items: center;
     max-width: 1200px;
 }
 
 nav {
-    position: ;
+    position: static;
     top: 0;
 }
-img {
-    padding-top: 25px;
+.menu_bar img {
+    padding-top: 5px;
     display: flex;
     justify-content: right;
+    width: 80%;
+    height: auto;
 }
 
 body {
@@ -53,7 +56,7 @@ body {
 }
 
 .hero {
-  position: flex;
+  position: absolute;
     background-image: url(assests/image/Senna-02.png);
     height: calc(100vh - 80px);
     background-size: cover;
@@ -65,7 +68,7 @@ body {
 
 .menu_bar {
     background-color: white;
-    height: 145px;
+    height: 100px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -121,10 +124,9 @@ table {
 
 
 .timeline {
-    position: flex;
+    position: absolute;
     max-width: 2000px;
     margin: 100px auto;
-    animation: moveline 6s lineear forwards;
 }
 
 .container {
@@ -162,7 +164,6 @@ background: white;
 }
 
 .timeline::after{
-    content: ;
     position: absolute;
     width: 6px;
     height: 100%;
@@ -343,11 +344,11 @@ footer {
 
 footer ul {
     display: contents;
-    align-items: right;
+    align-items: center;
     justify-content: space-around;
     list-style: none;
     position: static;
-    padding: auto;
+    padding: 15px;
 }
 
 footer i {
@@ -368,7 +369,7 @@ footer p {
 
 @media(max-width: 999px) {
   footer ul: {
-  padding: auto;
+  padding: 15px;
   }
 }
 
@@ -569,4 +570,4 @@ nav ul li a{
   display: none;
 }
 #check:checked ~ #label #cancel{
-  display: block;
+  display: none;
