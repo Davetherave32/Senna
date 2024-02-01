@@ -15,9 +15,6 @@ html{
 .intro {
     height: 70vh;
     background-color: white
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .header {
@@ -336,19 +333,21 @@ text-align: center;
 
 
 /* Footer */
-
 footer {
     background-color: red;
-    padding: 30px;
+    padding: 25px;
 }
 
 footer ul {
-    display: contents;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-    position: static;
-    padding: 15px;
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+footer li {
+  display: inline-block;
+  width: 150px
+  position: flex;
+  padding: 25px;
 }
 
 footer i {
@@ -357,20 +356,19 @@ footer i {
     padding: 0%;
 }
 
-
 footer i:hover{
     color: black
 }
-
 footer p {
     text-align: center;
     color: white;
 }
 
+
+
+
+
 @media(max-width: 999px) {
-  footer ul: {
-  padding: 15px;
-  }
 }
 
 
