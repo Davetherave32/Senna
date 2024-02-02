@@ -127,52 +127,31 @@ table {
 padding: 10px 50px;
 position: relative;
 width: 50%;
-background: white;
+background: #34495e;
 }
 
 .text-box {
+  color: #fafafa;
     padding: 20px 30px;
-    position: static;
+    position: relative;
     border-radius: 6px;
-    font-size: 15px;
-    
+    font-size: 13px;
+    background-color: #34495e;
 }
 
 .left-container {
     left: 0;
 }
 .right-container {
-    left: 50%;
+    left: 0%;
 }
 .container img {
     position: static;
-    width: 200px;
+    width: 150px;
     padding-bottom: 20px;
     right: 5px;
     z-index: 10;
 }
-
-
-.right-container img {
-    left: 525px;
-}
-
-.timeline::after{
-    position: absolute;
-    width: 6px;
-    height: 100%;
-    background: ;
-    top: 0;
-    left: 50%;
-    margin-left: 3px;
-    z-index: -1;
-}
-
- .img {
-    padding-bottom: 15px;
-    right: 10px;
- }
-
 
 
 /* Gallery page - collage photos */
