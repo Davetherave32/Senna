@@ -33,7 +33,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 100%;
 }
 
 nav {
@@ -52,13 +52,10 @@ body {
   margin: 0;
 }
 
-.hero {
-  position: absolute;
-    background-image: url(assests/image/Senna-02.png);
-    height: calc(100vh - 80px);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.hero img{
+  position: relative;
+    width: 100%;
+    overflow: hidden;
 }
 
 
@@ -336,18 +333,19 @@ text-align: center;
 footer {
     background-color: red;
     padding: 25px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+    display: block;
 }
 
 footer ul {
-  width: 100%;
-  padding: 70px 30px 20px;
+ 
 }
 
 footer li {
-  display: inline-block;
-  width: 150px
-  position: flex;
-  padding: 25px;
+  display: inline;
 }
 
 footer i {
