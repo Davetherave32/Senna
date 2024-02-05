@@ -1,24 +1,24 @@
+/* Import from Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans:wght@500&family=Open+Sans&family=Roboto:wght@300&display=swap');
 
-
+/* Adjust scroll behavior of html document */
 html{
     scroll-behavior: smooth;
     scroll-padding-top: 200px;
 }
 
-
-
+/* Change default margins, padding and box-sizing */
 * {
     margin: 0;
     padding: 50px;
     box-sizing: border-box;
 }
-
+/* Adjusting header backround color and height */
 .intro {
     height: 70vh;
     background-color: white
 }
-
+/* Header Information, Content and Images */
 .header {
     position: absolute;
     background-color: white;
@@ -28,7 +28,6 @@ html{
     z-index: 9999;
     height: 100px;
 }
-
 
 .header_content {
     height: 60px;
@@ -42,6 +41,7 @@ nav {
     position: static;
     top: 0;
 }
+
 .menu_bar img {
     padding-top: 5px;
     display: flex;
@@ -49,19 +49,16 @@ nav {
     width: 80%;
     height: auto;
 }
-
 body {
   margin: 0;
 }
-
+/* Hero Image */
 .hero img{
   position: relative;
     width: 100%;
     overflow: hidden;
 }
-
-
-
+/* Menu Bar information */
 .menu_bar {
     background-color: white;
     height: 100px;
@@ -89,15 +86,13 @@ body {
 .menu_bar ul li a {
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2.5vw;
 }
 
 .menu_bar ul li a:hover {
     color: red;
 }
-
-
-
+/* Career */
 body {
     font-family: Lato, sans-serif;
     background-color: whitesmoke;
@@ -141,8 +136,6 @@ background: #34495e;
     right: 5px;
     z-index: 10;
 }
-
-
 /* Gallery page - collage photos */
 *
 {
@@ -198,27 +191,22 @@ break-inside: auto;
 #newsletter{
   text-align: center;
 }
-
 .contact_element {
   display: inline-block;
   margin: 1%;
   padding: 3%;
   vertical-align: top;
 }
-
 .address_word_wrap {
   width: 14rem;
 }
-
 .word_wrap {
   word-wrap: break-word;
 }
-
 #contact_details i {
   font-size: 200%;
   color: #3a3a3a
 }
-
 .contact_form {
   color: #fff;
   background-color: #34495e;
@@ -228,13 +216,10 @@ break-inside: auto;
   margin: 0 auto;
   margin-top: 1.5%;
 }
-
 .contact_form h2 {
   color: #fafafa;
   margin-bottom: 20px;
-
 }
-
 .text_input {
   background: transparent;
   color: #fafafa;
@@ -244,11 +229,9 @@ break-inside: auto;
   border: 1px solid #fafafa;
   border-radius: 2px;
 }
-
 .text_input:hover {
   border-color: #e74c3c;
 }
-
 #feedback {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -258,7 +241,6 @@ break-inside: auto;
   margin: 0 auto;
   height: 5rem;
 }
-
 .submit_button {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -273,53 +255,40 @@ break-inside: auto;
   display: inline-block;
   border-radius: 5px;
 }
-
 .submit_button:hover {
   background-color: #fff;
   color: #e74c3c;
 }
-
 .form_layout {
   text-align: center;
 }
-
 .form_inline {
   display: inline-block;
   vertical-align: bottom;
 }
-
 .form_inline img {
   max-width: 500px;
   border-radius: 10px;
 }
-
-
-
-
 /* Footer */
 footer {
     background-color: red;
     padding: 25px;
     width: 100%;
     text-align: center;
-    
 }
-
 footer ul {
  display: flex;
  justify-content: space-between;
 }
-
 footer li {
   display: inline;
 }
-
 footer i {
     font-size: 200%;
     color: white;
     padding: 5px;
 }
-
 footer i:hover{
     color: black
 }
@@ -332,13 +301,10 @@ footer p {
     display: block;
     margin-bottom: 10px;
   }
-
   .footer i{
     font-size: 50px;
   }
 }
-
-
 /* Navbar query max width 999px */
 label #btn,
 label #cancel {
@@ -353,17 +319,16 @@ label #cancel {
 #check{
   display: none;
 }
-@media (max-width: 999px) {
+@media (max-width: 1036px) {
   label #btn{
     display: block;
   }
-
   ul{
     position: fixed;
     width: 30%;
-    height: 100vh;
+    height: 75vh;
     background: red;
-    top: 80px;
+    top: 100px;
     right: -100%;
     text-align: left;
     transition: all 0.5s;
@@ -376,7 +341,7 @@ label #cancel {
   }
 
 nav ul li a{
-  font-size: 20px;
+  font-size: 2vw;
 }
 #check:checked ~ ul{
   right: 0;
