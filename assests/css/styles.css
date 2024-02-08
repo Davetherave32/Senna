@@ -13,6 +13,14 @@ html{
     padding: 50px;
     box-sizing: border-box;
 }
+
+section#Introduction {
+  font-size: 3vw;
+  text-align: center;
+}
+
+
+
 /* Adjusting header backround color and height */
 .intro {
     height: 70vh;
@@ -52,12 +60,27 @@ nav {
 body {
   margin: 0;
 }
+
 /* Hero Image */
 .hero img{
   position: relative;
     width: 100%;
     overflow: hidden;
 }
+    .image-text {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 3vw; 
+      font-weight: bold; 
+      text-align: center;
+      z-index: 1; 
+      padding: 10px;
+      background-color: red;
+  }
+
 /* Menu Bar information */
 .menu_bar {
     background-color: white;
@@ -68,6 +91,7 @@ body {
     justify-content: space-between;
     padding: 0 0.5%;
 }
+
 
 .menu_bar li{
     list-style: none;
@@ -94,7 +118,6 @@ body {
 }
 
 /* Footer */
-
 footer {
   background-color: red;
   padding: 25px;
@@ -112,7 +135,7 @@ display: inline;
 }
 
 footer i {
-  font-size: 200%;
+  font-size: 6vw;
   color: white;
   padding: 5px;
   z-index: 50;
@@ -123,6 +146,7 @@ footer i:hover{
 }
 
 footer p {
+  font-size: 2vw;
   text-align: center;
   color: white;
 }
