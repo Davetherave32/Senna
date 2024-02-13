@@ -8,44 +8,43 @@ A live website can be found [here](https://davetherave32.github.io/Senna/).
 
 ![website preview](assests/image/responsive-screenshot.png)
 
-# Table of Contents
-- [1. UX](#ux)
-  * [1.1. Strategy](#strategy)
-    + [Project Goals](#project-goals)
-      - [User Goals:](#user-goals)
-      - [User Expectations:](#user-expectations)
-      - [Trends of Modern Websites](#trends-of-modern-websites)
-      - [Strategy Table](#strategy-table)
-  * [1.2. Structure](#structure)
-  * [1.3. Skeleton](#skeleton)
-  * [1.4. Surface](#surface)
-- [2. Features](#features)
-- [3. Technologies Used](#technologies-used)
-- [4. Testing](#testing)
-- [5. Development Cycle](#development-cycle)
-- [6. Deployment](#deployment)
-- [7. End Product](#end-product)
-- [8. Known Bugs](#known-bugs)
-- [9. Credits](#credits)
+## Table of Contents
 
-<a name="ux"></a>
-# 1. UX
-  [Go to the top](#table-of-contents)
+1. [User Experience (UX)](#user-experience-ux)
+    1. [Project Goals](#project-goals)
+    2. [User Stories](#user-stories)
+    3. [Color Scheme](#color-scheme)
+    4. [Typography](#typography)
+    5. [Wireframes](#wireframes)
+2. [Features](#features)
+    1. [General](#general)
+    2. [Landing Page](#landing-page)
+    3. [Treatments Page](#treatments-page)
+    4. [Book Now Page](#book-now-page)
+    5. [404 Error Page](#404-error-page)
+ 3. [Technologies Used](#technologies-used)
+    1. [Languages Used](#languages-used)
+    2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+4. [Testing](#testing)
+    1. [Testing User Stories](#testing-user-stories)
+    2. [Code Validation](#code-validation)
+    3. [Accessibility](#accessibility)
+    4. [Tools Testing](#tools-testing)
+    5. [Manual Testing](#manual-testing)
+5. [Finished Product](#finished-product)
+6. [Deployment](#deployment)
+    1. [GitHub Pages](#github-pages)
+7. [Credits](#credits)
+    1. [Content](#content)
+    2. [Media](#media)
+    3. [Code](#code)
+8. [Acknowledgements](#acknowledgements)
 
-As a big football and Manchester United fan, I have always seen articles on why Sir Alex Ferguson is the greatest manager ever. However, I have not come across a dedicated website to showcase his whole career.
+***
 
-This project will showcase statistics and facts that prove that his legacy was one of the greatest of all time.
+## User Experience (UX)
 
-<a name="strategy"></a>
-## 1.1. Strategy
-  [Go to the top](#table-of-contents)
-
-### Project Goals
-
-The main goal of this website is to show more awareness of this man. I want to teach the target audience why he is rated so highly by his peers and colleagues.
-
-### User Goals:
- * First Time Visitor Goals
+* First Time Visitor Goals
     - As a First Time Visitor, I want to learn about the history of this person and understand why he was rated so highly.
 
     - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
@@ -54,7 +53,7 @@ The main goal of this website is to show more awareness of this man. I want to t
 
  * Returning Visitor Goals
 
-    - As a Returning Visitor, I want to find information about Sir Alex Ferguson.
+    - As a Returning Visitor, I want to find information about Ayrton Senna.
 
     - As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
@@ -62,337 +61,371 @@ The main goal of this website is to show more awareness of this man. I want to t
 
     - As a Frequent User, I want to check to see if there are any newly added stats and facts.
 
-    - As a Frequent User, I want to check to see if another manager will be rated as highly.
+    - As a Frequent User, I want to check to see if another driver will be rated as highly.
 
-### User Expectations:
-The content should prove why Sir Alex Ferguson is the greatest manager.
-- The content is displayed in a clear and understanding format.
-- The user interface is easy to navigate.
-- The website is responsive on all devices this includes mobile, tablet and desktop.
-- To have the ability to contact the creator of the website.
+### Color Scheme
 
-### Trends of modern websites:
-- Multimedia experiences
-- Offering Audio
-- Consistency of design
-- Easy on the eye colour pallets
-- Dark Mode
-
-### Strategy Table
-Opportunity/Problem/Feature| Importance| Viability/Feasibility
------------- | -------------------------|---------
-Increase awareness | 5 | 5
-Educational content | 5| 5
-Highlight achievements | 5 | 5
-Responsive design | 5 | 5
-Contact me form | 4 | 5
-Career history | 5 | 5
-Testimonials | 5 | 5
-Honourable mentions | 3 | 2
-Dark mode | 4 | 1
-Total | 41 | 38
-
-## Scope
-
-As I am unable to include all of the features from the strategy table. I will phase this project in multiple phases. Phase 1 will be what I have identified as a minimum viable product. Please find below the plans I have for each phase.
-
-### Phase 1
-- Add educational content
-- Highlight his achievements
-- Responsive design
-- Increase awareness
-- Contact me form
-- Career history
-- Testimonials
-
-### Phase 2
-- Dark Mode
-- Honourable mentions
-
-<a name="structure"></a>
-## 1.2. Structure
-  [Go to the top](#table-of-contents)
-
-It is really important to include responsive design in this project as many users are using different devices (mobile, tablet, laptop/PC). This gives the user the best experience on their device.
-
- - Responsive on all devices sizes
- - Navigation bar is placed on the top left of the screen and is clear and easy to use. This is also placed in the same position on every page.
- - Footer at the bottom of each page that links to the social media websites.
- - All elements will be consistent including font size, font family, colour scheme.
-
-<a name="skeleton"></a>
-## 1.3. Skeleton
-  [Go to the top](#table-of-contents)
-
-I used [Balsamiq](https://balsamiq.com/) to create my wireframes as this gives the template of the UI. This also shows where all elements will be placed within the screen.
-
-There are 2 versions of each wireframe as one shows the design on a web browser and the other shows a mobile browser format.
-
-### Wire-frames
-Web browser home page
-[![index.html-web](documentation-assets/wireframe-images/index.html-web.png)](documentation-assets/wireframe-images/index.html-web.png)
-
-Mobile browser home page
-[![index.html-web](documentation-assets/wireframe-images/index.html-mobile.png)](documentation-assets/wireframe-images/index.html-mobile.png)
-
-Web browser career page
-[![index.html-web](documentation-assets/wireframe-images/career.html-web.png)](documentation-assets/wireframe-images/career.html-web.png)
-
-Mobile browser career page
-[![index.html-web](documentation-assets/wireframe-images/career.html-mobile.png)](documentation-assets/wireframe-images/career.html-mobile.png)
-
-Web browser awards page
-[![index.html-web](documentation-assets/wireframe-images/awards.html-web.png)](documentation-assets/wireframe-images/awards.html-web.png)
-
-Mobile browser awards page
-[![index.html-web](documentation-assets/wireframe-images/awards.html-mobile.png)](documentation-assets/wireframe-images/awards.html-mobile.png)
-
-Web browser gallery page
-[![index.html-web](documentation-assets/wireframe-images/gallery.html-web.png)](documentation-assets/wireframe-images/gallery.html-web.png)
-
-Mobile browser gallery page
-[![index.html-web](documentation-assets/wireframe-images/gallery.html-mobile.png)](documentation-assets/wireframe-images/gallery.html-mobile.png)
-
-Web browser gallery page
-[![index.html-web](documentation-assets/wireframe-images/contact-us.html-web.png)](documentation-assets/wireframe-images/contact-us.html-web.png)
-
-Mobile browser gallery page
-[![index.html-web](documentation-assets/wireframe-images/contact-us.html-mobile.png)](documentation-assets/wireframe-images/contact-us.html-mobile.png)
-
-<a name="surface"></a>
-## 1.4. Surface
-  [Go to the top](#table-of-contents)
-
-### Colours
-Please find the colours schemes that I used [here](https://coolors.co/34495e-ffffff-e74c3c-3a3a3a-fafafa).
+The colors used in the site of whitesmoke for the background color , a red for the footer, with black as the hover effect, navy blue (#34495e) is used as a container color.  Finally all text is white, with red being a hoover color when nessary.
 
 ### Typography
-I decided to use Roboto as my font of choice with sans serf as my backup font for browsers that might not support Roboto.
 
-<a name="features"></a>
-# 2. Features
-  [Go to the top](#table-of-contents)
+The main font used in the site is Lato, with Roboto as the fallback font in case Lato is not being imported correctly.
 
-### All pages:
-- Navigation bar is placed at the top of the screen, for ease of use and consistency. It has a hover effect and changes colour to improve the user experience. The page that you have selected also highlights red so the user knows exactly which page they are on.
-- Social media links, - all links are placed at the bottom of each page in the footer. All links open in a new tab.
-- Logo/text - a Sir Alex Ferguson logo is also placed on the top right of each page. This gives the context that the website is about him.
+### Wireframes
 
-### Landing page:
-- Main image - a large image that shows who the website is about.
-- Summary - a summary of what Sir Alex achieved.
-- Video - an embedded tribute video from youtube that gives the user the multimedia experience. This helps the user to be engaged with the website.
+[Balsamiq](https://balsamiq.com/) has been used to showcase the appearance of the site and display the placement of the different elements whitin the pages.
 
-### Career page:
-- Overall statistics - a small bordered box that shows his managerial career stats.
-- Timeline - this element shows his career in a chronological experience. Reading from the top (when he started his career) to the bottom (when he finishes his career). This section tells you which clubs he has managed and a summary of what he achieved.
-- Club logos - These images add a visual to UI and improving UX as it's not just text on the page.
+Page | Desktop Version | Mobile Version
+--- | --- | ---
+Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | ![Mobile index wireframe image](assets/wireframes/mobile-index.png)
+Treatments | ![Desktop treatments wireframe image](assets/wireframes/desktop-treatments.png) | ![Mobile treatments wireframe image](assets/wireframes/mobile-treatments.png)
+Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-now.png) | ![Mobile book now wireframe image](assets/wireframes/mobile-book-now.png)
 
-### Testimonials page:
-- Card style view - this gives the user an easy to read card view that breaks information down into small sections. The user can read from card to card.
-- Card images - all images are of the same size, giving the UI consistency. This also gives the context of who the quote was from.
-- Card quotes - short quotes about Sir Alex admiring him. These quotes are from players who played under him and other managers giving credit.
+[Back to top ⇧](#pura-vida-spa)
 
-### Gallery page:
-- Collage images - these images are placed in a collage design. This allows me to place multiple sized images to the given screen size. The images show the success and happiness he had in the game.
 
-### Contact page:
-- Contact form - this gives the user the ability to message me for any issues they are having with the site, any suggestions of improvement and to give their opinions on any other manager that could potentially take his place.
+## Features
 
-<a name="technologies-used"></a>
-## 3. Technologies Used
-  [Go to the top](#table-of-contents)
+### General
 
-* [HTML5](https://en.wikipedia.org/wiki/HTML)
-  * The project uses HyperText Markup Language.
+* Responsive design across all device sizes.
+
+* Similar color scheme and design throughout all pages to effectively structure, categorise and present the information to the customers.
+
+* **Header**
+![Header image](assests/readme-files/header.png)
+    
+    - The header contains the Senna logo and fully responsive navigation bar positioned across the top of the screen.
+
+    - The Senna logo functions as a link to the landing page.
+
+    - The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to provide feedback to the customer for a better user experience.
+
+* **Footer**
+![Footer image](assests/readme-files/footer.png)
+
+    - The footer includes a smaller version of the logo and link to social media channels.
+
+### Landing Page
+
+* **Main Image**
+![Main image](assests/readme-files/main-image.png)
+
+    - The main image is designed to attract attention, and recognition of the work of Aytron Senna.
+
+* **Career**
+![Career image](assests/readme-files/career.png)
+
+    - Contains images and text, showing the history of Aytron Sennas F1 career.
+
+* **Gallery**
+![Gallery section image](assests/readme-files/gallery.png)
+
+    - Contains a images, showing some of Sennas fines highlights caught on film.
+
+### Newsletter
+
+* **Newsletter Sections**
+![Newsletter section image](assests/readme-files/newsletter.png)
+
+    - The treatment section contains an image to illustrate the respective treatment and a short text with an explanation of the treatment.
+
+    - A link to the book now page has been added to each section for easy navigation.
+
+    - Each treatment section is fully responsive and easy to replicate in case more treatments need to be added by the business.
+
+### Book Now Page
+
+* **Book Now Form**
+![Book now form image](assets/readme-files/book-now-form.png)
+
+    - The form allows the customer to book the desired treatment on a specific date directly from the business' website.
+
+* **Find Us Section**
+![Find us section image](assets/readme-files/find-us.png)
+
+    - This section displays a Google map of the business' geographical location. This allows the customers to easily find the location from their devices.
+
+### 404 Error Page
+![404 error page image](assets/readme-files/404-error-page.png)
+
+*  This single page is being shown in case the customer enters an incorrect address into the address bar. It contains a link to the landing page.
+
+[Back to top ⇧](#pura-vida-spa)
+
+
+## Technologies Used
+
+### Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
-  * The project uses Cascading Style Sheets.
-* [Atom](https://atom.io/)
-  - The project uses Atom to code.
-* [Chrome](https://www.google.com/intl/en_uk/chrome/)
-  - The project uses Chrome to debug and test the source code using HTML5.
-* [Balsamiq](https://balsamiq.com/)
-  - Balsamiq was used to create the wireframes during the design process.
+
+### Frameworks, Libraries and Programs Used
+
 * [Google Fonts](https://fonts.google.com/)
-  - Google fonts were used to import the "Roboto" font into the style.css file which is used on all pages throughout the project.
+    - Google Fonts was used to import the fonts Raleway, Cabin and Qahiri into the style.css file. These fonts were used throughout the site.
+
+* [Font Awesome](https://fontawesome.com/)
+     - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
+
+* [TinyPNG](https://tinypng.com/)
+    - TinyPNG was used to reduce the file size of the images for the website.
+
+* [GitPod](https://gitpod.io/)
+     - GitPod was used for writing code, committing, and then pushing to GitHub.
+
 * [GitHub](https://github.com/)
-  - GitHub was used to store the project's code after being pushed from Git.
-* [JS Fiddle](https://jsfiddle.net/)
-  - JS Fiddle was used as a playground to test all my code before committing.
+     - GitHub was used to store the project after pushing.
 
-<a name="testing"></a>
-# 4. Testing
-  [Go to the top](#table-of-contents)
+* [Balsamiq](https://balsamiq.com/)
+     - Balsamiq was used to create the wireframes during the design phase of the project.
 
-## Automated testing
-### Google Developer Tools
+* [Am I Responsive?](http://ami.responsivedesign.is/#)
+    - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
-For every element that I added to my HTML, I would add the basic CSS to my stylesheet. I would then use the inspect element to try different styles. Once I've got it to my liking I would copy the CSS from google into my stylesheet. This allows me to keep track of the code I am using.
+* [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+    - Responsive Design Checker was used in the testing process to check responsiveness on various devices.
 
-### Responsive Tools
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    - Chrome DevTools was used during development process for code review and to test responsiveness.
 
-I used [Am I Responsive](http://ami.responsivedesign.is/) to make sure that all my pages are responsive to all devices.
+* [W3C Markup Validator](https://validator.w3.org/)
+    - W3C Markup Validator was used to validate the HTML code.
 
-### W3C Validator Tools
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - W3C CSS Validator was used to validate the CSS code.
 
-I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within my HTML pages.
+[Back to top ⇧](#pura-vida-spa)
 
-I had an error on the index.html page with the iframe attribute of "frameborder". The HTML checker notified me that this attribute is obsolete and to use CSS instead.
 
-I also had an error on the contact_us.html page with a duplicate ID of "form_inline". I rectified this by changing the ID's to a class instead and updated the CSS for this.
+## Testing
 
-I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any error within my CSS stylesheet.
+### Testing User Stories
 
-## Manual Testing
+* As a customer, I want to be able to navigate the website intuitively and learn more about the business and treatments being offered.
 
-I have tested my site on Safari and google chrome on multiple devices.
-I also used [JS Fiddle](https://jsfiddle.net/) as a playground to test all of my code before staging and committing any changes.
+     - The website offers a intuitive structure for the customers to navigate and find the information they are looking for.
 
-These include:
-  - iPhone X
-  - iPhone XS Max
-  - iPad Pro
-  - Macbook Pro
+    - The navigation bar is clearly presented in all pages for the customers to find with ease and it is easily navigable.
 
-Please find below my testing process for all pages via mobile and web:
 
-### All pages:
-  - Navigation Bar:
-    - Home - When selecting "home", the browser redirects me to the home page. The text in the navigation bar also stays highlighted in red. It worked as expected.
-    - Career - When selecting "career", the browser redirects me to the career page. The text in the navigation bar also stays highlighted in red. It worked as expected.
-    - Testimonials - When selecting "testimonials", the browser redirects me to the testimonials page. The text in the navigation bar also stays highlighted in red. It worked as expected.
-    - Gallery - When selecting "gallery", the browser redirects me to the gallery page. The text in the navigation bar also stays highlighted in red. It worked as expected.
-    - Contact - When selecting "contact", the browser redirects me to the contact page. The text in the navigation bar also stays highlighted in red. It worked as expected.
+* As a customer, I want to be able to read more about the treatments available.
 
-    - Text:
-      - I checked that all text is in the correct and consistent size and font. I also checked that there were no typos.
+    - The treatments page presents all treatments available, each on their own section.
 
-    - Media:
-      - I checked that all images and videos on this page load. Making sure that the video played and that all images have alt text if media does not load. It worked as expected.
+    - Each treatment section contains useful information about the respective treatment.
 
-    - Responsiveness
-      - I checked that all pages and elements were responsive. Checking each page on mobile and website and adjusting screen size to find break points. It worked as expected.
+* As a customer, I want to easily find the contact information for the business.
 
-  - Footer:
-    - Facebook - When selecting the Facebook icon, a new tab opens and redirects to the Facebook website. It worked as expected.
-    - Twitter -  When selecting the Twitter icon, a new tab opens and redirects to the Twitter website. It worked as expected.
-    - YouTube - When selecting the YouTube icon, a new tab opens and redirects to the YouTube website. It worked as expected.
-    - Instagram -  When selecting the Instagram icon, a new tab opens and redirects to the Instagram website. It worked as expected.
+    - The landing page contains a clear contact section with all necessary business' contacts
 
-### Career page:
-  - Managerial Career Statistics:
-    - Checking the statistics element is responsive on mobile and web. This worked as expected.
+* As a customer, I want to find social media links to the business.
 
-  - Timeline:
-    - I checked for consistency within the club logos for each section in the timeline.
-    - Making sure the the headers and content text is consistent in size and font.
-    - I also checked that the timeline is in chronological order.
+    - The footer provides link to the business' social media channels.
 
-### Testimonials page:
-  - Cards view:
-    - I tested the responsiveness of the cards view, making sure that the columns decreased as the screen got smaller.
-    - Making sure that the images do not pixelate when the screen got smaller. It worked as expected.
+* As a customer, I want to be able to book a treatment directly from the website.
 
-### Gallery page:
-  - Collage:
-    - Testing all images respond to the screen getting smaller. The columns show a decrease if this happens. It worked as expected.
-    - Hovering over each image to make sure that the hover animation is working and displaying the correct text and colours.
+    - The book now page provides a book now form for the customer to book and schedule their next treatment.
 
-### Contact page:
-  - Contact form:
-    - Testing that each field of the form is required before submitting. It worked as expected.
-    - Checking that the submit button works and processes the form.
+* As a customer, I want to easily find the business' location.
 
-<a name="development-cycle"></a>
-# 5. Development Cycle
-  [Go to the top](#table-of-contents)
+    - The book now page contains a find us section with a Google map of the business' geographical location.
 
-There were many elements I changed, re-positioned and added from my original wireframes as they were more visually appealing.
 
-### All pages:
- - Replaced the Sir Alex Photo on the top right with just a text. This is visually more appealing because the text can fit inside the navigation bar.
+### Code Validation
 
-### Landing page:
-  - The original wireframe lacked attention from users. I added an embedded YouTube video to make the user more variety with different media elements. This video is also a short introduction to what the website is about.
+* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
 
-### Career page:
-  - I added a statistics panel to show the numbers Sir Alex achieved during his career.
-  - The original design shows the timeline is continuously on the left side of the page. I decided to change this to make the timeline appear on the centre of the page with the content displaying on the left then the right side of the page. This keeps the user engaged as the content isn't just a block of text.
+    - W3C Markup Validator found an error concerning headings not being included on the main and book now images. The section tag was replaced for a div tag to correct this. 
+    
+    - Another error found by W3C Markup Validator was concerning a percentage value used inside the iframe tag to declare the width property on the Book Now page. The width and height properties for the iframe were declared inside the CSS file instead.
 
-### Testimonials page:
-  - The original wireframe shows this page as an awards page with the same timeline design as the career page however, I changed this to a testimonials page. This is to give the user a better experience with a different format from the career page. As I was planning to use the same design the user would have been less engaged as they felt like they were reading the same content in the same format.
-  - I added in a cards view, this gives the user smaller amounts of content so it's easy to process. The image on each card also gives the context of who the quote was from.
+    -  W3C CSS Validator found no errors or warnings on my CSS.
 
-### Gallery page:
-  - The gallery page has remained the same. I added a hover animation over each photo to give the context of what the image is about.
+### Accessibility
 
-### Contact page:
- - After coding the contact page to the original design. I thought that it looked dull, so I added other elements to make this page visually appealing to the users.
- - Added google maps location
- - Added icons for location, telephone number and contact email.
+* Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
 
-<a name="deployment"></a>
-# 6. Deployment
-  [Go to the top](#table-of-contents)
+* Lighthouse reports
 
-I used GitHub pages to deploy my final project. To do this I had to:
+    - **Landing Page**
 
-1. Create a repository on GitHub.
-2. Clone the repository on your chosen source code editor (Atom in my case) using the clone link.
-4. Add files to Git (staging area) and use the atom commit to master button.
-5. Use git within atom to push the code.
-7. Go to GitHub and load your repository.
-8. Select settings.
-9. Select pages on the left menu bar.
-10. Click on the master branch.
-11. This will now generate a link with your website live.
+    ![Lighthouse report for landing page image](assets/readme-files/lighthouse-report-index.png)
 
-<a name="end-product"></a>
-# 7. End Product
-  [Go to the top](#table-of-contents)
+    - **Treatments Page**
 
-  Please fine below a screenshot of each page:
+    ![Lighthouse report for treatmenst page image](assets/readme-files/lighthouse-report-treatments.png)
 
-  Home page UI:
-  ![home page preview](assets/images/home_end_product)
+    - **Book Now Page**
 
-  Career page UI:
-  ![career page preview](assets/images/career_end_product)
+    ![Lighthouse report for book now page image](assets/readme-files/lighthouse-report-book-now.png)
 
-  Testimonials page UI:
-  ![testimonials page preview](assets/images/testimonials_end_product)
+    - **404 Error Page**
 
-  Gallery page UI:
-  ![gallery page preview](assets/images/gallery_end_product)
+    ![Lighthouse report for book now page image](assets/readme-files/lighthouse-report-book-now.png)
 
-  Contact page UI:
-  ![contact page preview](assets/images/contact_end_product)
+### Tools Testing
 
-<a name="known-bugs"></a>
-# 8. Known Bugs
-  [Go to the top](#table-of-contents)
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 
-  - On some mobile devices the navigation bar appears behind the content. This was rectified by adding a z-index to the CSS for the navigation bar.
-  - My first implementation of the navigation bar was not responsive on mobile devices, meaning that the design was floating off the screen. This was rectified by implementing a new navbar that included a hamburger style button when the screen size gets smaller.
-  - The form styling on some mobile devices do not match the web styles. This was rectified by adding WebKit appearance, appearance in the CSS and set the value to none.
-  - The video on the home page was not responsive. This was fixed by adding a height value in the CSS in smaller media queries.
-  - The managerial career stats section was also not responsive. This was fixed by adding a smaller font-size value to the media query of max-width 635px. This allowed the whole section to be visible on mobile devices.
+    - Chrome DevTools was used during the development process to test, explore and modify HTML elements and CSS styles used in the project.
 
-<a name="credits"></a>
-# 9. Credits
-  [Go to the top](#table-of-contents)
+* Responsiveness
+    
+    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
 
-### Code
- * The navigation bar code came from [Code Pen](https://codepen.io/puskuruk/pen/bGbexXd)
- * The cards view on the index.html was inspired from [Code Pen](https://codepen.io/mcraiganthony/pen/NxGxqm)
- * The timeline feature on the career.html and awards.html page was inspired from [W3Schools](https://www.w3schools.com/howto/howto_css_timeline.asp)
- * The footer code came from the Love Running projects
- * The collage design was inspired by [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_grid_responsive)
- * The gallery page has a hover effect on the image the code came from [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity)
- * The icons in the footer and contact page came from [Font Awesome](https://fontawesome.com/)
+    - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness of the site pages on different screen sizes.
+    
+    - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
 
+### Manual Testing
+
+* Browser Compatibility
+
+    - The website has been tested on the following browsers:
+
+        - **Goolgle Chrome**
+        
+        No appearance, responsiveness nor functionality issues.
+
+        - **Safari**
+        
+        No appearance, responsiveness nor functionality issues.
+
+        - **Mozilla Firefox**
+        
+        There was and issue with the appearance of the book buttons on the treatments page expanding all the width. This issue was corrected by changing the width property value from "fit-content" to "max-content".
+        
+        No responsiveness nor functionality issues.
+
+        - **Microsoft Edge**
+        
+        No appearance, responsiveness nor functionality issues.
+
+* Device compatibility
+
+    - The website has been tested on multiple devices, including:
+
+        - **MacBook Pro 15"**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **Dell Latitude 5300**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **iPad Pro 12.9"**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **iPad Pro 10.5"**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **iPhone XR**
+        
+        No appearance, responsiveness nor functionality issues.
+
+        - **iPhone 7**
+
+        No appearance, responsiveness nor functionality issues.
+
+* Common Elements Testing
+
+    - All Pages
+        
+        - **Header**
+
+            - Clicking on the main logo will bring the customer back to the landing page.
+
+        - **Navigation Bar**
+
+            - Hovering on the different navigation bar's links will trigger hover effect, highlighting the link for the customer.
+
+            - Clicking on the navigation bar's links will bring the customer to the specified page.
+        
+        - **Footer**
+        
+            - Clicking on the social media links will open the specific website on a new tab.
+
+    - Treatments Page
+
+        - Hovering on the book button link on each treatment section will trigger hover effect, highlighting the button for the customer.
+
+        - Clicking on the book button link on each treatment section will bring the customer to the book now page.
+
+    - Book Now Page
+
+        - When filling out the book now form, the customer is required to complete all fields before submitting.
+        
+        - Hovering over the book button will trigger hover effect, highlighting the button for the customer.
+
+        - Clicking and dragging on the map in the find us section will move the area shown on the map. 
+        
+        - Clicking the plus and minus buttons changes the zoom of the map.
+
+    - 404 Error Page
+
+        - Entering an incorrect address into the address bar will bring the customer back to the 404 error page.
+
+        - Hovering on the homepage link will trigger hover effect, increasing the font size of the link's text.
+
+        - Clicking on the homepage link will bring the customer back to the landing page.
+
+[Back to top ⇧](#pura-vida-spa)
+
+
+## Finished Product
+
+Page | Desktop version | Mobile version
+--- | --- | ---
+Index | ![Desktop index page image](assets/readme-files/desktop-index.png) | ![Mobile index page image](assets/readme-files/mobile-index.png)
+Treatments | ![Desktop treatments page image](assets/readme-files/desktop-treatments.png) | ![Mobile treatments page image](assets/readme-files/mobile-treatments.png)
+Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.png) | ![Mobile book now page image](assets/readme-files/mobile-book-now.png)
+404 Error | ![Desktop 404 error page image](assets/readme-files/desktop-404.png) | ![Mobile 404 error page image](assets/readme-files/mobile-404.png)
+
+[Back to top ⇧](#pura-vida-spa)
+
+
+## Deployment
+
+* This website was developed using [GitPod](https://www.gitpod.io/), which was then committed and pushed to GitHub using the GitPod terminal.
+
+### GitHub Pages
+
+* Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
+
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+
+    2. At the top of the Repository, locate the Settings button on the menu.
+
+        - Alternatively click [here](https://raw.githubusercontent.com/) for a GIF demostration of the process.
+
+    3. Scroll down the Settings page until you locate the Pages section.
+
+    4. Under Source, click the dropdown called None and select Master Branch.
+
+    5. The page will refresh automatically and generate a link to your website.
+
+[Back to top ⇧](#pura-vida-spa)
+
+
+## Credits 
 
 ### Content
- * All quotes on the index.html page came from [Planet Football](https://www.planetfootball.com/quick-reads/19-of-the-best-quotes-about-sir-alex-ferguson-such-an-iconic-person/)
- * The timeline content on the career.html page came from [Wikipedia](https://en.wikipedia.org/wiki/Alex_Ferguson)
- * All images came from [Google Images](https://www.google.com/imghp?hl=en)
+
+- All content was written by the developer.
+
+### Media
+
+* [Pexels](https://www.pexels.com/)
+
+    - Main image: "Waterfalls in the Middle of Green Trees" by Austin Tsai.
+    - 404 Error Page image: Taken by Artem Beliaikin.
+
+* [Unsplash](https://unsplash.com/)
+
+    - About Us image: "Pristine water lily" by Jay Castor.
+    - Massage image: "Beautiful Woman Getting Stones Massage in Spa Salon" by Engin Akyurt.
+    - Facial image: Taken by Raphael Lovaski.
+    - Pedicure image: "Warm bath before treatment" by Rune Enstad.
