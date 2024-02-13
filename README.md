@@ -112,6 +112,8 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 
 ### Landing Page
 
+[Go to the top](#table-of-contents)
+
 * **Main Image**
 ![Main image](assests/css/main-page.png)
 
@@ -136,17 +138,17 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
     -This allows patrons to comunicate with us for future updates, ideas and to offer feedback.
 
 
-
-[Back to top ⇧](#senna)
-
-
 ## Technologies Used
+
+[Go to the top](#table-of-contents)
 
 ### Languages Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ### Frameworks, Libraries and Programs Used
+
+[Go to the top](#table-of-contents)
 
 * [Google Fonts](https://fonts.google.com/)
     - Google Fonts was used to import the fonts Raleway, Cabin and Qahiri into the style.css file. These fonts were used throughout the site.
@@ -181,10 +183,9 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     - W3C CSS Validator was used to validate the CSS code.
 
-[Back to top ⇧](#senna)
-
-
 ## Testing
+
+[Go to the top](#table-of-contents)
 
 ### Testing User Stories
 
@@ -220,6 +221,8 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 
 ### Code Validation
 
+[Go to the top](#table-of-contents)
+
 * The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
 
     - W3C Markup Validator found an error concerning headings not being included on the main and book now images. The section tag was replaced for a div tag to correct this. 
@@ -229,6 +232,8 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
     -  W3C CSS Validator found no errors or warnings on my CSS.
 
 ### Accessibility
+
+[Go to the top](#table-of-contents)
 
 * Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
 
@@ -252,6 +257,8 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 
 ### Tools Testing
 
+[Go to the top](#table-of-contents)
+
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 
     - Chrome DevTools was used during the development process to test, explore and modify HTML elements and CSS styles used in the project.
@@ -265,6 +272,8 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
     - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
 
 ### Manual Testing
+
+[Go to the top](#table-of-contents)
 
 * Browser Compatibility
 
@@ -358,10 +367,11 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 
         - Clicking on the homepage link will bring the customer back to the landing page.
 
-[Back to top ⇧](#pura-vida-spa)
 
 
 ## Finished Product
+
+[Go to the top](#table-of-contents)
 
 Page | Desktop version | Mobile version
 --- | --- | ---
@@ -370,14 +380,16 @@ Treatments | ![Desktop treatments page image](assets/readme-files/desktop-treatm
 Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.png) | ![Mobile book now page image](assets/readme-files/mobile-book-now.png)
 404 Error | ![Desktop 404 error page image](assets/readme-files/desktop-404.png) | ![Mobile 404 error page image](assets/readme-files/mobile-404.png)
 
-[Back to top ⇧](#pura-vida-spa)
-
 
 ## Deployment
+
+[Go to the top](#table-of-contents)
 
 * This website was developed using [GitPod](https://www.gitpod.io/), which was then committed and pushed to GitHub using the GitPod terminal.
 
 ### GitHub Pages
+
+[Go to the top](#table-of-contents)
 
 * Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
 
@@ -393,16 +405,20 @@ Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.p
 
     5. The page will refresh automatically and generate a link to your website.
 
-[Back to top ⇧](#pura-vida-spa)
-
 
 ## Credits 
 
+[Go to the top](#table-of-contents)
+
 ### Content
+
+[Go to the top](#table-of-contents)
 
 - All content was written by the developer.
 
 ### Media
+
+[Go to the top](#table-of-contents)
 
 * [Pexels](https://www.pexels.com/)
 
