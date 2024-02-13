@@ -44,6 +44,8 @@ A live website can be found [here](https://davetherave32.github.io/Senna/).
 
 ## User Experience (UX)
 
+[Go to the top](#table-of-contents)
+
 * First Time Visitor Goals
     - As a First Time Visitor, I want to learn about the history of this person and understand why he was rated so highly.
 
@@ -81,12 +83,14 @@ Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | 
 Treatments | ![Desktop treatments wireframe image](assets/wireframes/desktop-treatments.png) | ![Mobile treatments wireframe image](assets/wireframes/mobile-treatments.png)
 Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-now.png) | ![Mobile book now wireframe image](assets/wireframes/mobile-book-now.png)
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#senna)
 
 
 ## Features
 
 ### General
+
+[Go to the top](#table-of-contents)
 
 * Responsive design across all device sizes.
 
@@ -109,9 +113,10 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 ### Landing Page
 
 * **Main Image**
-![Main image](assests/css/main-image.png)
+![Main image](assests/css/main-page.png)
 
     - The main image is designed to attract attention, and recognition of the work of Aytron Senna.
+
 
 * **Career**
 ![Career image](assests/css/career.png)
@@ -128,30 +133,11 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 * **Newsletter Sections**
 ![Newsletter section image](assests/css/newsletter.png)
 
-    - The treatment section contains an image to illustrate the respective treatment and a short text with an explanation of the treatment.
+    -This allows patrons to comunicate with us for future updates, ideas and to offer feedback.
 
-    - A link to the book now page has been added to each section for easy navigation.
 
-    - Each treatment section is fully responsive and easy to replicate in case more treatments need to be added by the business.
 
-### Book Now Page
-
-* **Book Now Form**
-![Book now form image](assets/readme-files/book-now-form.png)
-
-    - The form allows the customer to book the desired treatment on a specific date directly from the business' website.
-
-* **Find Us Section**
-![Find us section image](assets/readme-files/find-us.png)
-
-    - This section displays a Google map of the business' geographical location. This allows the customers to easily find the location from their devices.
-
-### 404 Error Page
-![404 error page image](assets/readme-files/404-error-page.png)
-
-*  This single page is being shown in case the customer enters an incorrect address into the address bar. It contains a link to the landing page.
-
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#senna)
 
 
 ## Technologies Used
@@ -195,7 +181,7 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     - W3C CSS Validator was used to validate the CSS code.
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#senna)
 
 
 ## Testing
