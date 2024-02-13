@@ -93,7 +93,7 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 * Similar color scheme and design throughout all pages to effectively structure, categorise and present the information to the customers.
 
 * **Header**
-![Header image](assests/readme-files/header.png)
+![Header image](assests/css/header.png)
     
     - The header contains the Senna logo and fully responsive navigation bar positioned across the top of the screen.
 
@@ -102,31 +102,31 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
     - The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to provide feedback to the customer for a better user experience.
 
 * **Footer**
-![Footer image](assests/readme-files/footer.png)
+![Footer image](assests/css/footer.png)
 
     - The footer includes a smaller version of the logo and link to social media channels.
 
 ### Landing Page
 
 * **Main Image**
-![Main image](assests/readme-files/main-image.png)
+![Main image](assests/css/main-image.png)
 
     - The main image is designed to attract attention, and recognition of the work of Aytron Senna.
 
 * **Career**
-![Career image](assests/readme-files/career.png)
+![Career image](assests/css/career.png)
 
     - Contains images and text, showing the history of Aytron Sennas F1 career.
 
 * **Gallery**
-![Gallery section image](assests/readme-files/gallery.png)
+![Gallery section image](assests/css/gallery.png)
 
     - Contains a images, showing some of Sennas fines highlights caught on film.
 
 ### Newsletter
 
 * **Newsletter Sections**
-![Newsletter section image](assests/readme-files/newsletter.png)
+![Newsletter section image](assests/css/newsletter.png)
 
     - The treatment section contains an image to illustrate the respective treatment and a short text with an explanation of the treatment.
 
