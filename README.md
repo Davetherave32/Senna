@@ -12,16 +12,18 @@ A live website can be found [here](https://davetherave32.github.io/Senna/).
 
 1. [User Experience (UX)](#user-experience-ux)
     1. [Project Goals](#project-goals)
-    2. [User Stories](#user-stories)
-    3. [Color Scheme](#color-scheme)
-    4. [Typography](#typography)
-    5. [Wireframes](#wireframes)
+        2.[First Time Visiter Goals](#first-time-visitor-goals)
+        3.[Returning Visitor Goals](#returning-visitor-goals)
+        4.[Frequent User Goals](#frequent-user-goals)
+       5.[Color Scheme](#color-scheme)
+       6.[Typography](#typography)
+       7.[Wireframes](#wireframes)
 2. [Features](#features)
     1. [General](#general)
     2. [Landing Page](#landing-page)
-    3. [Treatments Page](#treatments-page)
-    4. [Book Now Page](#book-now-page)
-    5. [404 Error Page](#404-error-page)
+    3. [Career](#career-page)
+    4. [Gallery](#gallery-page)
+    5. [Newsletter](#newsletter-page)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -45,6 +47,10 @@ A live website can be found [here](https://davetherave32.github.io/Senna/).
 ## User Experience (UX)
 
 [Go to the top](#table-of-contents)
+
+### Project Goals
+
+The main goal of this website is to show more awareness of this man. I want to teach the target audience why he is rated so highly by his peers and colleagues.
 
 * First Time Visitor Goals
     - As a First Time Visitor, I want to learn about the history of this person and understand why he was rated so highly.
@@ -83,9 +89,6 @@ Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | 
 Treatments | ![Desktop treatments wireframe image](assets/wireframes/desktop-treatments.png) | ![Mobile treatments wireframe image](assets/wireframes/mobile-treatments.png)
 Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-now.png) | ![Mobile book now wireframe image](assets/wireframes/mobile-book-now.png)
 
-[Back to top ⇧](#senna)
-
-
 ## Features
 
 ### General
@@ -111,8 +114,6 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
     - The footer includes a smaller version of the logo and link to social media channels.
 
 ### Landing Page
-
-[Go to the top](#table-of-contents)
 
 * **Main Image**
 ![Main image](assests/css/main-page.png)
