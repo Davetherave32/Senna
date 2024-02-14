@@ -28,19 +28,16 @@ A live website can be found [here](https://davetherave32.github.io/Senna/).
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 4. [Testing](#testing)
-    1. [Testing User Stories](#testing-user-stories)
-    2. [Code Validation](#code-validation)
-    3. [Accessibility](#accessibility)
-    4. [Tools Testing](#tools-testing)
-    5. [Manual Testing](#manual-testing)
-5. [Finished Product](#finished-product)
-6. [Deployment](#deployment)
+   1. [Automated Testing](#automated-testing)
+   2. [Manual Testing](#manual-testing)
+6. [Finished Product](#finished-product)
+7. [Deployment](#deployment)
     1. [GitHub Pages](#github-pages)
-7. [Credits](#credits)
+8. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
     3. [Code](#code)
-8. [Acknowledgements](#acknowledgements)
+9. [Acknowledgements](#acknowledgements)
 
 ***
 
@@ -192,188 +189,107 @@ This allows patrons to comunicate with us for future updates, ideas and to offer
     - W3C CSS Validator was used to validate the CSS code.
 
 ## Testing
+  [Go to the top](#table-of-contents)
 
-[Go to the top](#table-of-contents)
+## Automated testing
+### Google Developer Tools
 
-### Testing User Stories
+For every element that I added to my HTML, I would add the basic CSS to my stylesheet. I would then use the inspect element to try different styles. Once I've got it to my liking I would copy the CSS from google into my stylesheet. This allows me to keep track of the code I am using.
 
-* As a customer, I want to be able to navigate the website intuitively and learn more about the business and treatments being offered.
+### Responsive Tools
 
-     - The website offers a intuitive structure for the customers to navigate and find the information they are looking for.
+I used [Am I Responsive](http://ami.responsivedesign.is/) to make sure that all my pages are responsive to all devices.
 
-    - The navigation bar is clearly presented in all pages for the customers to find with ease and it is easily navigable.
+### W3C Validator Tools
 
+I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within my HTML pages.
 
-* As a customer, I want to be able to read more about the treatments available.
+I had an error on the index.html page with div class not being clossed correctly.
 
-    - The treatments page presents all treatments available, each on their own section.
+I also had an error on the gallery.html page with container class not being set correctly.
 
-    - Each treatment section contains useful information about the respective treatment.
+The gallery.html had an error with div class were not closed after adjustments had been made.
 
-* As a customer, I want to easily find the contact information for the business.
+I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any error within my CSS stylesheet.
 
-    - The landing page contains a clear contact section with all necessary business' contacts
+## Manual Testing
 
-* As a customer, I want to find social media links to the business.
+I have tested my site on Safari and google chrome on multiple devices.
 
-    - The footer provides link to the business' social media channels.
+These include:
+  - iPhone X
+  - iPhone XS Max
+  - iPad Pro
+  - Macbook Pro
 
-* As a customer, I want to be able to book a treatment directly from the website.
+Please find below my testing process for all pages via mobile and web:
 
-    - The book now page provides a book now form for the customer to book and schedule their next treatment.
+### All pages:
+  - Navigation Bar:
+    - Home - When selecting "home", the browser redirects me to the home page. The text in the navigation bar also stays highlighted in red. It worked as expected.
+    - Career - When selecting "career", the browser redirects me to the career page. The text in the navigation bar also stays highlighted in red. It worked as expected.
+    - Gallery - When selecting "gallery", the browser redirects me to the gallery page. The text in the navigation bar also stays highlighted in red. It worked as expected.
+    - Newsletter - When selecting "contact", the browser redirects me to the contact page. The text in the navigation bar also stays highlighted in red. It worked as expected.
 
-* As a customer, I want to easily find the business' location.
+    - Text:
+      - I checked that all text is in the correct and consistent size and font. I also checked that there were no typos.
 
-    - The book now page contains a find us section with a Google map of the business' geographical location.
+    - Media:
+      - I checked that all images on this page load. Making sure all images have alt text if media does not load. It worked as expected.
 
+    - Responsiveness
+      - I checked that all pages and elements were responsive. Checking each page on mobile and website and adjusting screen size to find break points. It worked as expected.
 
-### Code Validation
+  - Footer:
+    - Facebook - When selecting the Facebook icon, a new tab opens and redirects to the Facebook website. It worked as expected.
+    - Twitter -  When selecting the Twitter icon, a new tab opens and redirects to the Twitter website. It worked as expected.
+    - YouTube - When selecting the YouTube icon, a new tab opens and redirects to the YouTube website. It worked as expected.
+    - Instagram -  When selecting the Instagram icon, a new tab opens and redirects to the Instagram website. It worked as expected.
 
-[Go to the top](#table-of-contents)
+### Career page:
+  - Career:
+    - Checking the statistics element is responsive on mobile and web. This worked as expected.
+    - I checked for consistency within the team badges for each section in the timeline.
+    - Making sure the the headers and content text is consistent in size and font.
+    - I also checked that it is in chronological order.
 
-* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
 
-    - W3C Markup Validator found an error concerning headings not being included on the main and book now images. The section tag was replaced for a div tag to correct this. 
-    
-    - Another error found by W3C Markup Validator was concerning a percentage value used inside the iframe tag to declare the width property on the Book Now page. The width and height properties for the iframe were declared inside the CSS file instead.
+### Gallery page:
+  - Collage:
+    - Testing all images respond to the screen getting smaller. The columns show a decrease if this happens. It worked as expected.
 
-    -  W3C CSS Validator found no errors or warnings on my CSS.
+### Newsletter page:
+  - Contact form:
+    - Testing that each field of the form is required before submitting. It worked as expected.
+    - Checking that the submit button works and processes the form.
 
-### Accessibility
+<a name="development-cycle"></a>
+# 5. Development Cycle
+  [Go to the top](#table-of-contents)
 
-[Go to the top](#table-of-contents)
+There were many elements I changed, re-positioned and added from my original wireframes as they were more visually appealing.
 
-* Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
+### All pages:
+ - Replaced the Sir Alex Photo on the top right with just a text. This is visually more appealing because the text can fit inside the navigation bar.
 
-* Lighthouse reports
+### Landing page:
+  - The original wireframe lacked attention from users. I added an embedded YouTube video to make the user more variety with different media elements. This video is also a short introduction to what the website is about.
 
-    - **Landing Page**
+### Career page:
+  - I added a statistics panel to show the numbers Sir Alex achieved during his career.
+  - The original design shows the timeline is continuously on the left side of the page. I decided to change this to make the timeline appear on the centre of the page with the content displaying on the left then the right side of the page. This keeps the user engaged as the content isn't just a block of text.
 
-    ![Lighthouse report for landing page image](assets/readme-files/lighthouse-report-index.png)
+### Testimonials page:
+  - The original wireframe shows this page as an awards page with the same timeline design as the career page however, I changed this to a testimonials page. This is to give the user a better experience with a different format from the career page. As I was planning to use the same design the user would have been less engaged as they felt like they were reading the same content in the same format.
+  - I added in a cards view, this gives the user smaller amounts of content so it's easy to process. The image on each card also gives the context of who the quote was from.
 
-    - **Treatments Page**
+### Gallery page:
+  - The gallery page has remained the same. I added a hover animation over each photo to give the context of what the image is about.
 
-    ![Lighthouse report for treatmenst page image](assets/readme-files/lighthouse-report-treatments.png)
-
-    - **Book Now Page**
-
-    ![Lighthouse report for book now page image](assets/readme-files/lighthouse-report-book-now.png)
-
-    - **404 Error Page**
-
-    ![Lighthouse report for book now page image](assets/readme-files/lighthouse-report-book-now.png)
-
-### Tools Testing
-
-[Go to the top](#table-of-contents)
-
-* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-
-    - Chrome DevTools was used during the development process to test, explore and modify HTML elements and CSS styles used in the project.
-
-* Responsiveness
-    
-    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
-
-    - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness of the site pages on different screen sizes.
-    
-    - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
-
-### Manual Testing
-
-[Go to the top](#table-of-contents)
-
-* Browser Compatibility
-
-    - The website has been tested on the following browsers:
-
-        - **Goolgle Chrome**
-        
-        No appearance, responsiveness nor functionality issues.
-
-        - **Safari**
-        
-        No appearance, responsiveness nor functionality issues.
-
-        - **Mozilla Firefox**
-        
-        There was and issue with the appearance of the book buttons on the treatments page expanding all the width. This issue was corrected by changing the width property value from "fit-content" to "max-content".
-        
-        No responsiveness nor functionality issues.
-
-        - **Microsoft Edge**
-        
-        No appearance, responsiveness nor functionality issues.
-
-* Device compatibility
-
-    - The website has been tested on multiple devices, including:
-
-        - **MacBook Pro 15"**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **Dell Latitude 5300**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPad Pro 12.9"**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPad Pro 10.5"**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPhone XR**
-        
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPhone 7**
-
-        No appearance, responsiveness nor functionality issues.
-
-* Common Elements Testing
-
-    - All Pages
-        
-        - **Header**
-
-            - Clicking on the main logo will bring the customer back to the landing page.
-
-        - **Navigation Bar**
-
-            - Hovering on the different navigation bar's links will trigger hover effect, highlighting the link for the customer.
-
-            - Clicking on the navigation bar's links will bring the customer to the specified page.
-        
-        - **Footer**
-        
-            - Clicking on the social media links will open the specific website on a new tab.
-
-    - Treatments Page
-
-        - Hovering on the book button link on each treatment section will trigger hover effect, highlighting the button for the customer.
-
-        - Clicking on the book button link on each treatment section will bring the customer to the book now page.
-
-    - Book Now Page
-
-        - When filling out the book now form, the customer is required to complete all fields before submitting.
-        
-        - Hovering over the book button will trigger hover effect, highlighting the button for the customer.
-
-        - Clicking and dragging on the map in the find us section will move the area shown on the map. 
-        
-        - Clicking the plus and minus buttons changes the zoom of the map.
-
-    - 404 Error Page
-
-        - Entering an incorrect address into the address bar will bring the customer back to the 404 error page.
-
-        - Hovering on the homepage link will trigger hover effect, increasing the font size of the link's text.
-
-        - Clicking on the homepage link will bring the customer back to the landing page.
+### Contact page:
+ - After coding the contact page to the original design. I thought that it looked dull, so I added other elements to make this page visually appealing to the users.
+ - Added google maps location
+ - Added icons for location, telephone number and contact email.
 
 
 
