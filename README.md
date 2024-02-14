@@ -1,4 +1,4 @@
-![image](https://github.com/Davetherave32/Senna/assets/106243844/e1347c77-bcbe-4999-b8ac-26025bcf99c9)# Senna Website
+# Senna Website
 
 ## Introduction
 
@@ -28,19 +28,16 @@ A live website can be found [here](https://davetherave32.github.io/Senna/).
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 4. [Testing](#testing)
-    1. [Testing User Stories](#testing-user-stories)
-    2. [Code Validation](#code-validation)
-    3. [Accessibility](#accessibility)
-    4. [Tools Testing](#tools-testing)
-    5. [Manual Testing](#manual-testing)
-5. [Finished Product](#finished-product)
-6. [Deployment](#deployment)
+   1. [Automated Testing](#automated-testing)
+   2. [Manual Testing](#manual-testing)
+5. [Development Cycle](#development-cycle)
+7. [Deployment](#deployment)
     1. [GitHub Pages](#github-pages)
-7. [Credits](#credits)
+8. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
     3. [Code](#code)
-8. [Acknowledgements](#acknowledgements)
+
 
 ***
 
@@ -112,25 +109,33 @@ The main font used in the site is Lato, with Roboto as the fallback font in case
     - The Senna logo functions as a link to the landing page.
 
     - The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to provide feedback to the customer for a better user experience.
+ 
+    - The value of the header is the allow users quick and easy navigation from one page to another. 
 
 * **Footer**
 ![Footer image](assests/css/footer.png)
 
- The footer includes a smaller version of the logo and link to social media channels.
+ - The footer includes a smaller version of the logo and link to social media channels.
+
+ - The value of the footer is that all social media apps are located there, this allows users to quickly navigate to the app of their choice without leaving the website.
 
 ### Landing Page
 
 * **Main Image**
 ![Main image](assests/css/main-page.png)
 
-The main image is designed to attract attention, and recognition of the work of Aytron Senna.
+- The main image is designed to attract attention, and recognition of the work of Aytron Senna.
+
+- The value of this page is the give user a high resolution image of Sennain the center with his name and logo on the top left had corner.  This lets users know where they are, and the short introduction helps confirm this.
 
 
 ### Career
 
 ![Career image](assests/css/career.png)
 
-Contains images and text, showing the history of Aytron Sennas F1 career.
+ - Contains images and text, showing the history of Aytron Sennas F1 career.
+
+ - The value of this page is that it it lays out Senna career in cronological order, it also gives image and text to inform users.
 
 ### Gallery
 
@@ -192,212 +197,119 @@ This allows patrons to comunicate with us for future updates, ideas and to offer
     - W3C CSS Validator was used to validate the CSS code.
 
 ## Testing
+  [Go to the top](#table-of-contents)
 
-[Go to the top](#table-of-contents)
+## Automated testing
+### Google Developer Tools
 
-### Testing User Stories
+For every element that I added to my HTML, I would add the basic CSS to my stylesheet. I would then use the inspect element to try different styles. Once I've got it to my liking I would copy the CSS from google into my stylesheet. This allows me to keep track of the code I am using.
 
-* As a customer, I want to be able to navigate the website intuitively and learn more about the business and treatments being offered.
+### Responsive Tools
 
-     - The website offers a intuitive structure for the customers to navigate and find the information they are looking for.
+I used [Am I Responsive](http://ami.responsivedesign.is/) to make sure that all my pages are responsive to all devices.
 
-    - The navigation bar is clearly presented in all pages for the customers to find with ease and it is easily navigable.
+### W3C Validator Tools
 
+I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within my HTML pages.
 
-* As a customer, I want to be able to read more about the treatments available.
+I had an error on the index.html page with div class not being closed correctly.
 
-    - The treatments page presents all treatments available, each on their own section.
+I also had an error on the gallery.html page with container class not being set correctly.
 
-    - Each treatment section contains useful information about the respective treatment.
+The gallery.html had an error with div class were not closed after adjustments had been made.
 
-* As a customer, I want to easily find the contact information for the business.
+I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any error within my CSS stylesheet.
 
-    - The landing page contains a clear contact section with all necessary business' contacts
+## Manual Testing
 
-* As a customer, I want to find social media links to the business.
+I have tested my site on Safari and google chrome on multiple devices.
 
-    - The footer provides link to the business' social media channels.
+These include:
+  - iPhone X
+  - iPhone XS Max
+  - iPad Pro
+  - Macbook Pro
 
-* As a customer, I want to be able to book a treatment directly from the website.
+Please find below my testing process for all pages via mobile and web:
 
-    - The book now page provides a book now form for the customer to book and schedule their next treatment.
+### All pages:
+  - Navigation Bar:
+    - Home - When selecting "home", the browser redirects me to the home page. The text in the navigation bar also stays highlighted in red. It worked as expected.
+    - Career - When selecting "career", the browser redirects me to the career page. The text in the navigation bar also stays highlighted in red. It worked as expected.
+    - Gallery - When selecting "gallery", the browser redirects me to the gallery page. The text in the navigation bar also stays highlighted in red. It worked as expected.
+    - Newsletter - When selecting "contact", the browser redirects me to the contact page. The text in the navigation bar also stays highlighted in red. It worked as expected.
 
-* As a customer, I want to easily find the business' location.
+    - Text:
+      - I checked that all text is in the correct and consistent size and font. I also checked that there were no typos.
 
-    - The book now page contains a find us section with a Google map of the business' geographical location.
+    - Media:
+      - I checked that all images on this page load. Making sure all images have alt text if media does not load. It worked as expected.
 
+    - Responsiveness
+      - I checked that all pages and elements were responsive. Checking each page on mobile and website and adjusting screen size to find break points. It worked as expected.
 
-### Code Validation
+  - Footer:
+    - Facebook - When selecting the Facebook icon, a new tab opens and redirects to the Facebook website. It worked as expected.
+    - Twitter -  When selecting the Twitter icon, a new tab opens and redirects to the Twitter website. It worked as expected.
+    - Snapchat- When selecting the YouTube icon, a new tab opens and redirects to the YouTube website. It worked as expected.
+    - Instagram -  When selecting the Instagram icon, a new tab opens and redirects to the Instagram website. It worked as expected.
 
-[Go to the top](#table-of-contents)
+### Career page:
+  - Career:
+    - Checking the statistics element is responsive on mobile and web. This worked as expected.
+    - I checked for consistency within the team badges for each section in the timeline.
+    - Making sure the the headers and content text is consistent in size and font.
+    - I also checked that it is in chronological order.
 
-* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
 
-    - W3C Markup Validator found an error concerning headings not being included on the main and book now images. The section tag was replaced for a div tag to correct this. 
-    
-    - Another error found by W3C Markup Validator was concerning a percentage value used inside the iframe tag to declare the width property on the Book Now page. The width and height properties for the iframe were declared inside the CSS file instead.
+### Gallery page:
+  - Collage:
+    - Testing all images respond to the screen getting smaller. The columns show a decrease if this happens. It worked as expected.
 
-    -  W3C CSS Validator found no errors or warnings on my CSS.
+### Newsletter page:
+  - Contact form:
+    - Testing that each field of the form is required before submitting. It worked as expected.
+    - Checking that the submit button works and processes the form.
+   
+### HTML testing:
 
-### Accessibility
+W3C Markup Validator was used to check if there was any errors in the html code.
 
-[Go to the top](#table-of-contents)
+- **index.html**
+  [index.html](assests/css/index.html.png)
 
-* Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
 
-* Lighthouse reports
 
-    - **Landing Page**
+## Development Cycle
+  [Go to the top](#table-of-contents)
 
-    ![Lighthouse report for landing page image](assets/readme-files/lighthouse-report-index.png)
+There were many elements I changed, re-positioned and added from my original wireframes as they were more visually appealing.
 
-    - **Treatments Page**
+### Landing page:
+  - The orginal wireframe had the hero image with a introduction box inside the hero image.  I chose to place the introduction, under the hero image as the image was so powerful I didn't want it to be corupted.
 
-    ![Lighthouse report for treatmenst page image](assets/readme-files/lighthouse-report-treatments.png)
+### Career page:
+- My orginal idea was to have a text box on the left, this would go through Senna career and rivals.  On the right I would have images showing the best parts of his career.
+- I chose to overall this page and go with a time line approach instead.  This looks at each team he drove for and the highlights of his time with that team.  I also included images of the teams logo.
 
-    - **Book Now Page**
+### Death page:
+- This page was removed entirly as at the time I didn't think it was appropiate to add to the website.
 
-    ![Lighthouse report for book now page image](assets/readme-files/lighthouse-report-book-now.png)
+### Gallery page:
+- The gallery page was added instead of the death page, I felt this would be more approprite to add positive highlights of Sennas career, instead of his final moments.
 
-    - **404 Error Page**
-
-    ![Lighthouse report for book now page image](assets/readme-files/lighthouse-report-book-now.png)
-
-### Tools Testing
-
-[Go to the top](#table-of-contents)
-
-* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-
-    - Chrome DevTools was used during the development process to test, explore and modify HTML elements and CSS styles used in the project.
-
-* Responsiveness
-    
-    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
-
-    - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness of the site pages on different screen sizes.
-    
-    - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
-
-### Manual Testing
-
-[Go to the top](#table-of-contents)
-
-* Browser Compatibility
-
-    - The website has been tested on the following browsers:
-
-        - **Goolgle Chrome**
-        
-        No appearance, responsiveness nor functionality issues.
-
-        - **Safari**
-        
-        No appearance, responsiveness nor functionality issues.
-
-        - **Mozilla Firefox**
-        
-        There was and issue with the appearance of the book buttons on the treatments page expanding all the width. This issue was corrected by changing the width property value from "fit-content" to "max-content".
-        
-        No responsiveness nor functionality issues.
-
-        - **Microsoft Edge**
-        
-        No appearance, responsiveness nor functionality issues.
-
-* Device compatibility
-
-    - The website has been tested on multiple devices, including:
-
-        - **MacBook Pro 15"**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **Dell Latitude 5300**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPad Pro 12.9"**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPad Pro 10.5"**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPhone XR**
-        
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPhone 7**
-
-        No appearance, responsiveness nor functionality issues.
-
-* Common Elements Testing
-
-    - All Pages
-        
-        - **Header**
-
-            - Clicking on the main logo will bring the customer back to the landing page.
-
-        - **Navigation Bar**
-
-            - Hovering on the different navigation bar's links will trigger hover effect, highlighting the link for the customer.
-
-            - Clicking on the navigation bar's links will bring the customer to the specified page.
-        
-        - **Footer**
-        
-            - Clicking on the social media links will open the specific website on a new tab.
-
-    - Treatments Page
-
-        - Hovering on the book button link on each treatment section will trigger hover effect, highlighting the button for the customer.
-
-        - Clicking on the book button link on each treatment section will bring the customer to the book now page.
-
-    - Book Now Page
-
-        - When filling out the book now form, the customer is required to complete all fields before submitting.
-        
-        - Hovering over the book button will trigger hover effect, highlighting the button for the customer.
-
-        - Clicking and dragging on the map in the find us section will move the area shown on the map. 
-        
-        - Clicking the plus and minus buttons changes the zoom of the map.
-
-    - 404 Error Page
-
-        - Entering an incorrect address into the address bar will bring the customer back to the 404 error page.
-
-        - Hovering on the homepage link will trigger hover effect, increasing the font size of the link's text.
-
-        - Clicking on the homepage link will bring the customer back to the landing page.
-
-
-
-## Finished Product
-
-[Go to the top](#table-of-contents)
-
-Page | Desktop version | Mobile version
---- | --- | ---
-Index | ![Desktop index page image](assets/readme-files/desktop-index.png) | ![Mobile index page image](assets/readme-files/mobile-index.png)
-Treatments | ![Desktop treatments page image](assets/readme-files/desktop-treatments.png) | ![Mobile treatments page image](assets/readme-files/mobile-treatments.png)
-Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.png) | ![Mobile book now page image](assets/readme-files/mobile-book-now.png)
-404 Error | ![Desktop 404 error page image](assets/readme-files/desktop-404.png) | ![Mobile 404 error page image](assets/readme-files/mobile-404.png)
+### Newsletter page:
+ - This was initially going to be a Legacy/Newsletter page.  However as discussed previously, since removing the Death page I alos decided to remove the Legacy section as well.
+ - The Newsletter was updated with more color to make it more appling.
 
 
 ## Deployment
 
 [Go to the top](#table-of-contents)
 
-* This website was developed using [GitPod](https://www.gitpod.io/), which was then committed and pushed to GitHub using the GitPod terminal.
+* This website was developed using [VisualStudioCode](https://code.visualstudio.com/), which was then committed and pushed to GitHub using GitHub Desktop.
 
 ### GitHub Pages
-
-[Go to the top](#table-of-contents)
 
 * Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
 
@@ -405,18 +317,29 @@ Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.p
 
     2. At the top of the Repository, locate the Settings button on the menu.
 
-        - Alternatively click [here](https://raw.githubusercontent.com/) for a GIF demostration of the process.
-
     3. Scroll down the Settings page until you locate the Pages section.
 
-    4. Under Source, click the dropdown called None and select Master Branch.
+    4. At the top of the screen it will show the website domain name.
 
-    5. The page will refresh automatically and generate a link to your website.
+    5. Click the "Visit Site" button and this will deploy the website.
 
 
 ## Credits 
 
 [Go to the top](#table-of-contents)
+
+### Code
+ * The navigation bar code came from [Bro Code](https://www.youtube.com/@BroCodez)
+ * The timeline feature on the career.html page was inspired from [iKelvv](https://github.com/iKelvvv/MS1)
+ * The footer code came from the Love Running project
+ * The collage design was inspired by [Bro Code](https://www.youtube.com/@BroCodez)
+ * The icons in the footer and contact page came from [Font Awesome](https://fontawesome.com/)
+ * The newsletter code came from the Love Running project
+
+
+### Media
+ * The content on the career.html page came from [Britannica](https://www.britannica.com/biography/Ayrton-Senna)
+ * All images came from [Google Images](https://www.google.com/imghp?hl=en)
 
 ### Content
 
@@ -424,18 +347,4 @@ Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.p
 
 - All content was written by the developer.
 
-### Media
 
-[Go to the top](#table-of-contents)
-
-* [Pexels](https://www.pexels.com/)
-
-    - Main image: "Waterfalls in the Middle of Green Trees" by Austin Tsai.
-    - 404 Error Page image: Taken by Artem Beliaikin.
-
-* [Unsplash](https://unsplash.com/)
-
-    - About Us image: "Pristine water lily" by Jay Castor.
-    - Massage image: "Beautiful Woman Getting Stones Massage in Spa Salon" by Engin Akyurt.
-    - Facial image: Taken by Raphael Lovaski.
-    - Pedicure image: "Warm bath before treatment" by Rune Enstad.
