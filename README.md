@@ -109,25 +109,33 @@ The main font used in the site is Lato, with Roboto as the fallback font in case
     - The Senna logo functions as a link to the landing page.
 
     - The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to provide feedback to the customer for a better user experience.
+ 
+    - The value of the header is the allow users quick and easy navigation from one page to another. 
 
 * **Footer**
 ![Footer image](assests/css/footer.png)
 
- The footer includes a smaller version of the logo and link to social media channels.
+ - The footer includes a smaller version of the logo and link to social media channels.
+
+ - The value of the footer is that all social media apps are located there, this allows users to quickly navigate to the app of their choice without leaving the website.
 
 ### Landing Page
 
 * **Main Image**
 ![Main image](assests/css/main-page.png)
 
-The main image is designed to attract attention, and recognition of the work of Aytron Senna.
+- The main image is designed to attract attention, and recognition of the work of Aytron Senna.
+
+- The value of this page is the give user a high resolution image of Sennain the center with his name and logo on the top left had corner.  This lets users know where they are, and the short introduction helps confirm this.
 
 
 ### Career
 
 ![Career image](assests/css/career.png)
 
-Contains images and text, showing the history of Aytron Sennas F1 career.
+ - Contains images and text, showing the history of Aytron Sennas F1 career.
+
+ - The value of this page is that it it lays out Senna career in cronological order, it also gives image and text to inform users.
 
 ### Gallery
 
@@ -243,7 +251,7 @@ Please find below my testing process for all pages via mobile and web:
   - Footer:
     - Facebook - When selecting the Facebook icon, a new tab opens and redirects to the Facebook website. It worked as expected.
     - Twitter -  When selecting the Twitter icon, a new tab opens and redirects to the Twitter website. It worked as expected.
-    - YouTube - When selecting the YouTube icon, a new tab opens and redirects to the YouTube website. It worked as expected.
+    - Snapchat- When selecting the YouTube icon, a new tab opens and redirects to the YouTube website. It worked as expected.
     - Instagram -  When selecting the Instagram icon, a new tab opens and redirects to the Instagram website. It worked as expected.
 
 ### Career page:
@@ -291,7 +299,7 @@ There were many elements I changed, re-positioned and added from my original wir
 
 [Go to the top](#table-of-contents)
 
-* This website was developed using [VisualStuoCode](https://code.visualstudio.com/), which was then committed and pushed to GitHub using GitHub Desktop.
+* This website was developed using [VisualStudioCode](https://code.visualstudio.com/), which was then committed and pushed to GitHub using GitHub Desktop.
 
 ### GitHub Pages
 
