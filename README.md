@@ -276,16 +276,16 @@ Please find below my testing process for all pages via mobile and web:
 W3C Markup Validator was used to check if there was any errors in the html code.
 
 - **index.html**
-  [index.html](assests/css/index.html.png)
+  ![index.html](assests/css/image/index.html.png)
   
 - **career.html**
-  [career.html](assests/css/career.html.png)
+  ![career.html](assests/css/image/career.html.png)
   
 - **gallery.html**
-  [gallery.html](assests/css/gallery.html.png)
+  ![gallery.html](assests/css/image/gallery.html.png)
   
 - **newsletter.html**
-  [newsletter.html](assests/css/newsletter.html.png)
+  ![newsletter.html](assests/css/image/newsletter.html.png)
 
 
 ## Development Cycle
