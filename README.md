@@ -1,4 +1,4 @@
-![image](https://github.com/Davetherave32/Senna/assets/106243844/e1347c77-bcbe-4999-b8ac-26025bcf99c9)# Senna Website
+# Senna Website
 
 ## Introduction
 
