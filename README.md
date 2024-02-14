@@ -1,4 +1,4 @@
-# Senna Website
+![image](https://github.com/Davetherave32/Senna/assets/106243844/e1347c77-bcbe-4999-b8ac-26025bcf99c9)# Senna Website
 
 ## Introduction
 
@@ -6,7 +6,7 @@ Welcome to my first project. This project is a history website based on the life
 
 A live website can be found [here](https://davetherave32.github.io/Senna/).
 
-![website preview](assests/image/responsive-screenshot.png)
+![website preview](assests/css/responsive-screenshot.png)
 
 ## Table of Contents
 
@@ -21,9 +21,9 @@ A live website can be found [here](https://davetherave32.github.io/Senna/).
 2. [Features](#features)
     1. [General](#general)
     2. [Landing Page](#landing-page)
-    3. [Career](#career-page)
-    4. [Gallery](#gallery-page)
-    5. [Newsletter](#newsletter-page)
+    3. [Career](#career)
+    4. [Gallery](#gallery)
+    5. [Newsletter](#newsletter)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -116,32 +116,34 @@ The main font used in the site is Lato, with Roboto as the fallback font in case
 * **Footer**
 ![Footer image](assests/css/footer.png)
 
-    - The footer includes a smaller version of the logo and link to social media channels.
+ The footer includes a smaller version of the logo and link to social media channels.
 
 ### Landing Page
 
 * **Main Image**
 ![Main image](assests/css/main-page.png)
 
-    - The main image is designed to attract attention, and recognition of the work of Aytron Senna.
+The main image is designed to attract attention, and recognition of the work of Aytron Senna.
 
 
-* **Career**
+### Career
+
 ![Career image](assests/css/career.png)
 
-    - Contains images and text, showing the history of Aytron Sennas F1 career.
+Contains images and text, showing the history of Aytron Sennas F1 career.
 
-* **Gallery**
+### Gallery
+
 ![Gallery section image](assests/css/gallery.png)
 
-    - Contains a images, showing some of Sennas fines highlights caught on film.
+Contains a images, showing some of Sennas fines highlights caught on film.
 
 ### Newsletter
 
 * **Newsletter Sections**
 ![Newsletter section image](assests/css/newsletter.png)
 
-    -This allows patrons to comunicate with us for future updates, ideas and to offer feedback.
+This allows patrons to comunicate with us for future updates, ideas and to offer feedback.
 
 
 ## Technologies Used
@@ -156,17 +158,17 @@ The main font used in the site is Lato, with Roboto as the fallback font in case
 
 [Go to the top](#table-of-contents)
 
+* [Visual Studio Code](https://code.visualstudio.com/)
+    - Visual Studio Code was used to write the code.
+
 * [Google Fonts](https://fonts.google.com/)
-    - Google Fonts was used to import the fonts Raleway, Cabin and Qahiri into the style.css file. These fonts were used throughout the site.
+    - Google Fonts was used to import the font Lato into the style.css file. These fonts were used throughout the site.
 
 * [Font Awesome](https://fontawesome.com/)
      - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
 
-* [TinyPNG](https://tinypng.com/)
-    - TinyPNG was used to reduce the file size of the images for the website.
-
-* [GitPod](https://gitpod.io/)
-     - GitPod was used for writing code, committing, and then pushing to GitHub.
+* [GitHub Desktop](https://gitpod.io/)
+     - GitHub Desktop was used for committing and then pushing the code to GitHub.
 
 * [GitHub](https://github.com/)
      - GitHub was used to store the project after pushing.
