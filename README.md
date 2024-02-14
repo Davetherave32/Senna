@@ -12,12 +12,12 @@ A live website can be found [here](https://davetherave32.github.io/Senna/).
 
 1. [User Experience (UX)](#user-experience-ux)
     1. [Project Goals](#project-goals)
-        2.[First Time Visiter Goals](#first-time-visitor-goals)
-        3.[Returning Visitor Goals](#returning-visitor-goals)
-        4.[Frequent User Goals](#frequent-user-goals)
-       5.[Color Scheme](#color-scheme)
-       6.[Typography](#typography)
-       7.[Wireframes](#wireframes)
+   2. [First Time Visiter Goals](#first-time-visitor-goals)
+   3. [Returning Visitor Goals](#returning-visitor-goals)
+   4. [Frequent User Goals](#frequent-user-goals)
+   5. [Color Scheme](#color-scheme)
+   6. [Typography](#typography)
+   7. [Wireframes](#wireframes)
 2. [Features](#features)
     1. [General](#general)
     2. [Landing Page](#landing-page)
@@ -52,28 +52,29 @@ A live website can be found [here](https://davetherave32.github.io/Senna/).
 
 The main goal of this website is to show more awareness of this man. I want to teach the target audience why he is rated so highly by his peers and colleagues.
 
-* First Time Visitor Goals
-    - As a First Time Visitor, I want to learn about the history of this person and understand why he was rated so highly.
+### First Time Visitor Goals
 
-    - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+As a First Time Visitor, I want to learn about the history of this person and understand why he was rated so highly.
 
-    - As a First Time Visitor, I want to look for statistics and facts to tell me why he's proven to be the greatest of all time.
+As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
- * Returning Visitor Goals
+As a First Time Visitor, I want to look for statistics and facts to tell me why he's proven to be the greatest of all time.
 
-    - As a Returning Visitor, I want to find information about Ayrton Senna.
+## Returning Visitor Goals
 
-    - As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+As a Returning Visitor, I want to find information about Ayrton Senna.
 
-* Frequent User Goals
+As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-    - As a Frequent User, I want to check to see if there are any newly added stats and facts.
+## Frequent User Goals
 
-    - As a Frequent User, I want to check to see if another driver will be rated as highly.
+As a Frequent User, I want to check to see if there are any newly added stats and facts.
+
+As a Frequent User, I want to check to see if another driver will be rated as highly.
 
 ### Color Scheme
 
-The colors used in the site of whitesmoke for the background color , a red for the footer, with black as the hover effect, navy blue (#34495e) is used as a container color.  Finally all text is white, with red being a hoover color when nessary.
+PLease find the colors schemes that I used [here](https://coolors.co/ffffff-ff0000-f5f5f5-34495e-3a3a3a)
 
 ### Typography
 
@@ -83,11 +84,15 @@ The main font used in the site is Lato, with Roboto as the fallback font in case
 
 [Balsamiq](https://balsamiq.com/) has been used to showcase the appearance of the site and display the placement of the different elements whitin the pages.
 
-Page | Desktop Version | Mobile Version
---- | --- | ---
-Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | ![Mobile index wireframe image](assets/wireframes/mobile-index.png)
-Treatments | ![Desktop treatments wireframe image](assets/wireframes/desktop-treatments.png) | ![Mobile treatments wireframe image](assets/wireframes/mobile-treatments.png)
-Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-now.png) | ![Mobile book now wireframe image](assets/wireframes/mobile-book-now.png)
+
+**Introduction** 
+![Introduction image](assests/css/image/wireframes-intro.png) 
+**Career** 
+![Career image](assests/css/image/wireframes-career.png) 
+**Death** 
+![Death image](assests/css/image/wireframes-death.png) 
+**Legacy**
+![Legacy image](assests/css/image/wireframes-legacy.png) 
 
 ## Features
 
