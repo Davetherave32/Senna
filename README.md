@@ -1,4 +1,4 @@
-# Senna Website
+![image](https://github.com/Davetherave32/Senna/assets/106243844/e1347c77-bcbe-4999-b8ac-26025bcf99c9)# Senna Website
 
 ## Introduction
 
@@ -6,24 +6,24 @@ Welcome to my first project. This project is a history website based on the life
 
 A live website can be found [here](https://davetherave32.github.io/Senna/).
 
-![website preview](assests/image/responsive-screenshot.png)
+![website preview](assests/css/responsive-screenshot.png)
 
 ## Table of Contents
 
 1. [User Experience (UX)](#user-experience-ux)
     1. [Project Goals](#project-goals)
-        2.[First Time Visiter Goals](#first-time-visitor-goals)
-        3.[Returning Visitor Goals](#returning-visitor-goals)
-        4.[Frequent User Goals](#frequent-user-goals)
-       5.[Color Scheme](#color-scheme)
-       6.[Typography](#typography)
-       7.[Wireframes](#wireframes)
+   2. [First Time Visiter Goals](#first-time-visitor-goals)
+   3. [Returning Visitor Goals](#returning-visitor-goals)
+   4. [Frequent User Goals](#frequent-user-goals)
+   5. [Color Scheme](#color-scheme)
+   6. [Typography](#typography)
+   7. [Wireframes](#wireframes)
 2. [Features](#features)
     1. [General](#general)
     2. [Landing Page](#landing-page)
-    3. [Career](#career-page)
-    4. [Gallery](#gallery-page)
-    5. [Newsletter](#newsletter-page)
+    3. [Career](#career)
+    4. [Gallery](#gallery)
+    5. [Newsletter](#newsletter)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -52,28 +52,29 @@ A live website can be found [here](https://davetherave32.github.io/Senna/).
 
 The main goal of this website is to show more awareness of this man. I want to teach the target audience why he is rated so highly by his peers and colleagues.
 
-* First Time Visitor Goals
-    - As a First Time Visitor, I want to learn about the history of this person and understand why he was rated so highly.
+### First Time Visitor Goals
 
-    - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+As a First Time Visitor, I want to learn about the history of this person and understand why he was rated so highly.
 
-    - As a First Time Visitor, I want to look for statistics and facts to tell me why he's proven to be the greatest of all time.
+As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
- * Returning Visitor Goals
+As a First Time Visitor, I want to look for statistics and facts to tell me why he's proven to be the greatest of all time.
 
-    - As a Returning Visitor, I want to find information about Ayrton Senna.
+## Returning Visitor Goals
 
-    - As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+As a Returning Visitor, I want to find information about Ayrton Senna.
 
-* Frequent User Goals
+As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-    - As a Frequent User, I want to check to see if there are any newly added stats and facts.
+## Frequent User Goals
 
-    - As a Frequent User, I want to check to see if another driver will be rated as highly.
+As a Frequent User, I want to check to see if there are any newly added stats and facts.
+
+As a Frequent User, I want to check to see if another driver will be rated as highly.
 
 ### Color Scheme
 
-The colors used in the site of whitesmoke for the background color , a red for the footer, with black as the hover effect, navy blue (#34495e) is used as a container color.  Finally all text is white, with red being a hoover color when nessary.
+PLease find the colors schemes that I used [here](https://coolors.co/ffffff-ff0000-f5f5f5-34495e-3a3a3a)
 
 ### Typography
 
@@ -83,11 +84,15 @@ The main font used in the site is Lato, with Roboto as the fallback font in case
 
 [Balsamiq](https://balsamiq.com/) has been used to showcase the appearance of the site and display the placement of the different elements whitin the pages.
 
-Page | Desktop Version | Mobile Version
---- | --- | ---
-Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | ![Mobile index wireframe image](assets/wireframes/mobile-index.png)
-Treatments | ![Desktop treatments wireframe image](assets/wireframes/desktop-treatments.png) | ![Mobile treatments wireframe image](assets/wireframes/mobile-treatments.png)
-Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-now.png) | ![Mobile book now wireframe image](assets/wireframes/mobile-book-now.png)
+
+**Introduction** 
+![Introduction image](assests/css/image/wireframes-intro.png) 
+**Career** 
+![Career image](assests/css/image/wireframes-career.png) 
+**Death** 
+![Death image](assests/css/image/wireframes-death.png) 
+**Legacy**
+![Legacy image](assests/css/image/wireframes-legacy.png) 
 
 ## Features
 
@@ -111,32 +116,34 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 * **Footer**
 ![Footer image](assests/css/footer.png)
 
-    - The footer includes a smaller version of the logo and link to social media channels.
+ The footer includes a smaller version of the logo and link to social media channels.
 
 ### Landing Page
 
 * **Main Image**
 ![Main image](assests/css/main-page.png)
 
-    - The main image is designed to attract attention, and recognition of the work of Aytron Senna.
+The main image is designed to attract attention, and recognition of the work of Aytron Senna.
 
 
-* **Career**
+### Career
+
 ![Career image](assests/css/career.png)
 
-    - Contains images and text, showing the history of Aytron Sennas F1 career.
+Contains images and text, showing the history of Aytron Sennas F1 career.
 
-* **Gallery**
+### Gallery
+
 ![Gallery section image](assests/css/gallery.png)
 
-    - Contains a images, showing some of Sennas fines highlights caught on film.
+Contains a images, showing some of Sennas fines highlights caught on film.
 
 ### Newsletter
 
 * **Newsletter Sections**
 ![Newsletter section image](assests/css/newsletter.png)
 
-    -This allows patrons to comunicate with us for future updates, ideas and to offer feedback.
+This allows patrons to comunicate with us for future updates, ideas and to offer feedback.
 
 
 ## Technologies Used
@@ -151,17 +158,17 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 
 [Go to the top](#table-of-contents)
 
+* [Visual Studio Code](https://code.visualstudio.com/)
+    - Visual Studio Code was used to write the code.
+
 * [Google Fonts](https://fonts.google.com/)
-    - Google Fonts was used to import the fonts Raleway, Cabin and Qahiri into the style.css file. These fonts were used throughout the site.
+    - Google Fonts was used to import the font Lato into the style.css file. These fonts were used throughout the site.
 
 * [Font Awesome](https://fontawesome.com/)
      - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
 
-* [TinyPNG](https://tinypng.com/)
-    - TinyPNG was used to reduce the file size of the images for the website.
-
-* [GitPod](https://gitpod.io/)
-     - GitPod was used for writing code, committing, and then pushing to GitHub.
+* [GitHub Desktop](https://gitpod.io/)
+     - GitHub Desktop was used for committing and then pushing the code to GitHub.
 
 * [GitHub](https://github.com/)
      - GitHub was used to store the project after pushing.
