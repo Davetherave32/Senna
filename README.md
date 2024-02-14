@@ -30,14 +30,14 @@ A live website can be found [here](https://davetherave32.github.io/Senna/).
 4. [Testing](#testing)
    1. [Automated Testing](#automated-testing)
    2. [Manual Testing](#manual-testing)
-6. [Finished Product](#finished-product)
+5. [Development Cycle](#development-cycle)
 7. [Deployment](#deployment)
     1. [GitHub Pages](#github-pages)
 8. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
     3. [Code](#code)
-9. [Acknowledgements](#acknowledgements)
+
 
 ***
 
@@ -204,7 +204,7 @@ I used [Am I Responsive](http://ami.responsivedesign.is/) to make sure that all 
 
 I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within my HTML pages.
 
-I had an error on the index.html page with div class not being clossed correctly.
+I had an error on the index.html page with div class not being closed correctly.
 
 I also had an error on the gallery.html page with container class not being set correctly.
 
@@ -263,57 +263,37 @@ Please find below my testing process for all pages via mobile and web:
     - Testing that each field of the form is required before submitting. It worked as expected.
     - Checking that the submit button works and processes the form.
 
-<a name="development-cycle"></a>
-# 5. Development Cycle
+
+## Development Cycle
   [Go to the top](#table-of-contents)
 
 There were many elements I changed, re-positioned and added from my original wireframes as they were more visually appealing.
 
-### All pages:
- - Replaced the Sir Alex Photo on the top right with just a text. This is visually more appealing because the text can fit inside the navigation bar.
-
 ### Landing page:
-  - The original wireframe lacked attention from users. I added an embedded YouTube video to make the user more variety with different media elements. This video is also a short introduction to what the website is about.
+  - The orginal wireframe had the hero image with a introduction box inside the hero image.  I chose to place the introduction, under the hero image as the image was so powerful I didn't want it to be corupted.
 
 ### Career page:
-  - I added a statistics panel to show the numbers Sir Alex achieved during his career.
-  - The original design shows the timeline is continuously on the left side of the page. I decided to change this to make the timeline appear on the centre of the page with the content displaying on the left then the right side of the page. This keeps the user engaged as the content isn't just a block of text.
+- My orginal idea was to have a text box on the left, this would go through Senna career and rivals.  On the right I would have images showing the best parts of his career.
+- I chose to overall this page and go with a time line approach instead.  This looks at each team he drove for and the highlights of his time with that team.  I also included images of the teams logo.
 
-### Testimonials page:
-  - The original wireframe shows this page as an awards page with the same timeline design as the career page however, I changed this to a testimonials page. This is to give the user a better experience with a different format from the career page. As I was planning to use the same design the user would have been less engaged as they felt like they were reading the same content in the same format.
-  - I added in a cards view, this gives the user smaller amounts of content so it's easy to process. The image on each card also gives the context of who the quote was from.
+### Death page:
+- This page was removed entirly as at the time I didn't think it was appropiate to add to the website.
 
 ### Gallery page:
-  - The gallery page has remained the same. I added a hover animation over each photo to give the context of what the image is about.
+- The gallery page was added instead of the death page, I felt this would be more approprite to add positive highlights of Sennas career, instead of his final moments.
 
-### Contact page:
- - After coding the contact page to the original design. I thought that it looked dull, so I added other elements to make this page visually appealing to the users.
- - Added google maps location
- - Added icons for location, telephone number and contact email.
-
-
-
-## Finished Product
-
-[Go to the top](#table-of-contents)
-
-Page | Desktop version | Mobile version
---- | --- | ---
-Index | ![Desktop index page image](assets/readme-files/desktop-index.png) | ![Mobile index page image](assets/readme-files/mobile-index.png)
-Treatments | ![Desktop treatments page image](assets/readme-files/desktop-treatments.png) | ![Mobile treatments page image](assets/readme-files/mobile-treatments.png)
-Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.png) | ![Mobile book now page image](assets/readme-files/mobile-book-now.png)
-404 Error | ![Desktop 404 error page image](assets/readme-files/desktop-404.png) | ![Mobile 404 error page image](assets/readme-files/mobile-404.png)
+### Newsletter page:
+ - This was initially going to be a Legacy/Newsletter page.  However as discussed previously, since removing the Death page I alos decided to remove the Legacy section as well.
+ - The Newsletter was updated with more color to make it more appling.
 
 
 ## Deployment
 
 [Go to the top](#table-of-contents)
 
-* This website was developed using [GitPod](https://www.gitpod.io/), which was then committed and pushed to GitHub using the GitPod terminal.
+* This website was developed using [VisualStuoCode](https://code.visualstudio.com/), which was then committed and pushed to GitHub using GitHub Desktop.
 
 ### GitHub Pages
-
-[Go to the top](#table-of-contents)
 
 * Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
 
@@ -321,18 +301,29 @@ Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.p
 
     2. At the top of the Repository, locate the Settings button on the menu.
 
-        - Alternatively click [here](https://raw.githubusercontent.com/) for a GIF demostration of the process.
-
     3. Scroll down the Settings page until you locate the Pages section.
 
-    4. Under Source, click the dropdown called None and select Master Branch.
+    4. At the top of the screen it will show the website domain name.
 
-    5. The page will refresh automatically and generate a link to your website.
+    5. Click the "Visit Site" button and this will deploy the website.
 
 
 ## Credits 
 
 [Go to the top](#table-of-contents)
+
+### Code
+ * The navigation bar code came from [Bro Code](https://www.youtube.com/@BroCodez)
+ * The timeline feature on the career.html page was inspired from [iKelvv](https://github.com/iKelvvv/MS1)
+ * The footer code came from the Love Running project
+ * The collage design was inspired by [Bro Code](https://www.youtube.com/@BroCodez)
+ * The icons in the footer and contact page came from [Font Awesome](https://fontawesome.com/)
+ * The newsletter code came from the Love Running project
+
+
+### Media
+ * The content on the career.html page came from [Britannica](https://www.britannica.com/biography/Ayrton-Senna)
+ * All images came from [Google Images](https://www.google.com/imghp?hl=en)
 
 ### Content
 
@@ -340,18 +331,4 @@ Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.p
 
 - All content was written by the developer.
 
-### Media
 
-[Go to the top](#table-of-contents)
-
-* [Pexels](https://www.pexels.com/)
-
-    - Main image: "Waterfalls in the Middle of Green Trees" by Austin Tsai.
-    - 404 Error Page image: Taken by Artem Beliaikin.
-
-* [Unsplash](https://unsplash.com/)
-
-    - About Us image: "Pristine water lily" by Jay Castor.
-    - Massage image: "Beautiful Woman Getting Stones Massage in Spa Salon" by Engin Akyurt.
-    - Facial image: Taken by Raphael Lovaski.
-    - Pedicure image: "Warm bath before treatment" by Rune Enstad.
