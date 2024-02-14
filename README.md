@@ -277,7 +277,15 @@ W3C Markup Validator was used to check if there was any errors in the html code.
 
 - **index.html**
   [index.html](assests/css/index.html.png)
-
+  
+- **career.html**
+  [career.html](assests/css/career.html.png)
+  
+- **gallery.html**
+  [gallery.html](assests/css/gallery.html.png)
+  
+- **newsletter.html**
+  [newsletter.html](assests/css/newsletter.html.png)
 
 
 ## Development Cycle
