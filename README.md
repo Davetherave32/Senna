@@ -270,6 +270,14 @@ Please find below my testing process for all pages via mobile and web:
   - Contact form:
     - Testing that each field of the form is required before submitting. It worked as expected.
     - Checking that the submit button works and processes the form.
+   
+### HTML testing:
+
+W3C Markup Validator was used to check if there was any errors in the html code.
+
+- **index.html**
+  [index.html](assests/css/index.html.png)
+
 
 
 ## Development Cycle
